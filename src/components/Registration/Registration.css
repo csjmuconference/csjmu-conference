@@ -1,0 +1,231 @@
+.registration {
+  background-color: var(--light-bg);
+}
+
+.registration-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* === Fee Table === */
+.fee-table {
+  overflow-x: auto;
+  background: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid var(--light-bg);
+}
+
+th {
+  background-color: var(--primary-color);
+  color: var(--white);
+}
+
+tr:nth-child(even) {
+  /* background-color: rgba(0, 0, 0, 0.02); */
+  background-color: #007bff1f;
+}
+
+/* === Benefits === */
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.benefit-card {
+  background-color: var(--white);
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.benefit-card:hover {
+  transform: translateY(-3px);
+}
+
+/* === CTA === */
+.registration-cta {
+  text-align: center;
+  padding: 3rem;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.registration-cta h3 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.registration-cta p {
+  margin-bottom: 1.5rem;
+}
+
+.register-button {
+  display: inline-block;
+  padding: 1rem 2.5rem;
+  background-color: var(--accent-color);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: var(--secondary-color);
+}
+
+/* === Payment Section === */
+.payment-info {
+  /* background-color: var(--white); */
+  background-image: linear-gradient(90deg, #1ca9c9 0%, #020a66 100%);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.payment-info h3 {
+  /* color: var(--primary-color); */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.payment-details {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.bank-details {
+  flex: 1 1 55%;
+  font-size: 1rem;
+  color: var(--text-dark);
+}
+
+.bank-details p {
+  margin-bottom: 0.6rem;
+  color: white
+}
+
+.bank-details .note {
+  margin-top: 1rem;
+  /* color: var(--secondary-color); */
+  color: #fff;
+  font-style: italic;
+}
+
+.bank-details .note a {
+  /* Set the default (unvisited) color for links inside this element */
+  color: white;
+  /* Equivalent to a:link */
+}
+
+/* Mouse over link */
+.bank-details .note a:hover {
+  color: rgb(0, 10, 79);
+}
+
+
+.qr-section {
+  flex: 1 1 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* === Phone Frame === */
+.phone-frame {
+  width: 200px;
+  height: 400px;
+  background-color: #111;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.notch {
+  width: 40px;
+  height: 4px;
+  background-color: #444;
+  border-radius: 2px;
+  position: absolute;
+  top: 8px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.phone-screen {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  width: 100%;
+  height: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.scan-text {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.qr-container img {
+  width: 130px;
+  height: 130px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+
+  th,
+  td {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .registration-cta {
+    padding: 2rem;
+  }
+
+  .payment-details {
+    flex-direction: column;
+    align-items: center;
+  }
+}

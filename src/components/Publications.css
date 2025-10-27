@@ -1,0 +1,194 @@
+/* ------------------------------------------------------------------- */
+/* --- PUBLICATIONS SECTION STYLES --- */
+/* ------------------------------------------------------------------- */
+
+.publications-section {
+    padding: 40px 50px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Header and Intro Text */
+.publication-header-content {
+    margin-bottom: 30px;
+}
+
+.publications-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #34495e;
+    /* Darker color for title */
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.publications-intro {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+
+/* Publication Grid Layout */
+.publications-grid {
+    display: grid;
+    /* 3 columns matching the visual layout */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+/* Individual Publication Card */
+.publication-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.publication-card-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    min-height: 40px;
+    /* Ensures titles align */
+    margin: 0 0 15px 0;
+    text-transform: uppercase;
+}
+
+/* Image Wrapper for Book Covers */
+.image-wrapper {
+    margin-bottom: 15px;
+    height: 300px;
+    /* Fixed height for image area */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.publication-image {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Details Section */
+.publication-details {
+    padding: 10px 0;
+    flex-grow: 1;
+    /* Pushes the button to the bottom */
+}
+
+.detail-text {
+    font-size: 12px;
+    color: #777;
+    margin: 3px 0;
+    line-height: 1.4;
+}
+
+.bold-text {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Visit Journal Button */
+.visit-journal-button {
+    background-color: #c0392b;
+    /* Red color */
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+    width: 80%;
+    /* Button width */
+    max-width: 250px;
+}
+
+.visit-journal-button:hover {
+    background-color: #a42c20;
+}
+
+/* Footer Text */
+.publications-footer-text {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+    text-align: left;
+    margin: 40px auto;
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+    max-width: 1000px;
+}
+
+/* Coming Soon Card Styling */
+.coming-soon-grid {
+    grid-template-columns: repeat(4, 1fr);
+    /* Adjust grid for the footer image */
+    justify-content: start;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.coming-soon-card {
+    border: none;
+    box-shadow: none;
+    padding: 0;
+    align-items: flex-start;
+}
+
+.coming-soon-image {
+    max-width: 150px;
+    height: auto;
+    box-shadow: none;
+}
+
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 900px) {
+    .publications-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .publications-section {
+        padding: 20px;
+    }
+
+    .coming-soon-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .publications-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .coming-soon-grid {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .coming-soon-card {
+        align-items: center;
+    }
+}

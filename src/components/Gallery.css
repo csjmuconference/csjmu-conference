@@ -1,0 +1,102 @@
+/* General container and font settings */
+.gallery-section {
+    padding: 20px 50px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffffff;
+    /* White background matching the screenshot */
+}
+
+/* Title styling */
+.gallery-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+/* Image Grid Layout */
+.gallery-grid {
+    display: grid;
+    /* 3 columns on large screens, matching the screenshots */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Individual Grid Item (Container for Image) */
+.gallery-item {
+    overflow: hidden;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.02);
+    /* Slight zoom on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Image Styling */
+.gallery-image {
+    width: 100%;
+    /* Aspect ratio close to the screenshot images (e.g., 4:3) */
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+    display: block;
+}
+
+/* Button Container */
+.gallery-button-container {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+/* Toggle Button Styling (Show More/Show Less) */
+.gallery-toggle-button {
+    background-color: var(--accent-color);
+    /* Red color matching the navigation bar */
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+}
+
+.gallery-toggle-button:hover {
+    background-color: var(--secondary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Responsive Adjustments --- */
+@media (max-width: 900px) {
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+        /* 2 columns on tablets */
+    }
+
+    .gallery-section {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+        /* 1 column on phones */
+    }
+
+    .gallery-title {
+        font-size: 28px;
+    }
+}

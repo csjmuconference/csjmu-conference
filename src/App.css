@@ -1,0 +1,193 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #1a237e;
+  --secondary-color: #0d47a1;
+  --accent-color: #2196f3;
+  --text-color: #333333;
+  --light-bg: #f5f5f5;
+  --white: #ffffff;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  color: var(--text-color);
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  margin-top: 70px;
+  /* To account for fixed header */
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  color: var(--primary-color);
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.section-subtitle {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .section {
+    padding: 40px 0;
+  }
+
+  .section-title {
+    font-size: 2rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+  }
+}
+
+/* --- Scroll Buttons --- */
+.scroll-buttons {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Arrow Button Styling */
+.arrow-button {
+  padding: 0.75rem;
+  margin: 0.25rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 10px rgba(37, 99, 235, 0.3);
+  transition: all 0.3s ease;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.arrow-button:hover {
+  background-color: #1d4ed8;
+}
+
+.arrow-button:active {
+  transform: scale(0.97);
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.arrow-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.4);
+}
+
+/* SVG Icon */
+.arrow-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* Smooth fade animation for showing buttons */
+.scroll-buttons button {
+  opacity: 0;
+  transform: translateY(10px);
+  animation: fadeInUp 0.4s ease forwards;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+.scroll-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  z-index: 999;
+}
+
+.arrow-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.scroll-btn {
+  width: 55px;
+  height: 55px;
+  border: none;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.scroll-btn.blue {
+  background-color: #1976d2;
+  /* Page Up / Down */
+}
+
+.scroll-btn.purple {
+  background-color: #1976d2
+    /* #673ab7; Top / Bottom */
+}
+
+.scroll-btn:hover {
+  transform: scale(1.15);
+  opacity: 0.9;
+}
+
+html {
+  scroll-behavior: smooth;
+}

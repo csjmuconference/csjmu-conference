@@ -1,0 +1,722 @@
+.call-for-papers {
+  background-color: var(--light-bg);
+}
+
+.cfp-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.topics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.topic-card {
+  background-color: var(--white);
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.topic-card:hover {
+  transform: translateY(-3px);
+}
+
+.guidelines-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.guideline-card {
+  /* background-color: var(--white); */
+  background-color: #F5F5F5;
+  padding: 2rem;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 2px 4px #1e3a8a;
+}
+
+.guideline-card h4 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.submission-info {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.submission-info h4 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.submission-info p {
+  margin-bottom: 1.5rem;
+}
+
+.submit-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: var(--accent-color);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+
+  .topics-grid,
+  .guidelines-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .guideline-card,
+  .submission-info {
+    padding: 1.5rem;
+  }
+}
+
+/* --- Modal Styles --- */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  /* Dark semi-transparent backdrop */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  /* Ensure it's above other content */
+  padding: 1rem;
+}
+
+.modal-content {
+  background-color: var(--white);
+  padding: 2.5rem;
+  border-radius: 12px;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transition: transform 0.3s ease-out;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.modal-title {
+  color: var(--primary-color, #007bff);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.modal-close-button {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #aaa;
+  line-height: 1;
+  padding: 0;
+  transition: color 0.2s;
+}
+
+.modal-close-button:hover {
+  color: #555;
+}
+
+.modal-body {
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+.modal-footer-button {
+  float: right;
+  /* Uses existing .submit-button styles */
+}
+
+/* Enhancing the clickable card */
+.topic-card-clickable {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100px;
+  /* Adjust as needed */
+}
+
+.topic-card-clickable .read-more {
+  margin-top: 10px;
+  font-size: 0.85rem;
+  color: var(--primary-color, #007bff);
+  font-weight: 600;
+}
+
+/* Include your existing CSS here */
+/* ... (Existing CSS content goes here) ... */
+
+.guidelines-accordion {
+  margin-top: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  /* Ensures rounded corners */
+}
+
+.accordion-item {
+  border-bottom: 1px solid #eee;
+  background-color: var(--white);
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+}
+
+.accordion-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #f7f7f7;
+  /* Light background for header */
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+  background-color: #f0f0f0;
+}
+
+.accordion-header.open {
+  background-color: var(--primary-color, #007bff);
+  /* Highlight open header */
+  color: var(--white);
+}
+
+.accordion-header.open h4 {
+  color: var(--white);
+}
+
+.accordion-header h4 {
+  color: var(--primary-color, #007bff);
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.accordion-icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.accordion-content-wrapper {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-in-out;
+  background-color: var(--white);
+}
+
+.accordion-content-wrapper.open {
+  max-height: 500px;
+  /* Large enough value to show all content */
+}
+
+.accordion-content {
+  padding: 1.5rem;
+}
+
+.guideline-detail {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.guideline-list {
+  margin-left: 2rem;
+  list-style-type: disc;
+  margin-bottom: 1rem;
+  padding-left: 0;
+}
+
+/* --- Submission Info Styles --- */
+.submission-info {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.email-submission {
+  background-color: #e6f7ff;
+  /* Light blue background for the email note */
+  border: 1px dashed var(--primary-color, #007bff);
+}
+
+.submission-info h4 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.submission-info p {
+  margin-bottom: 1rem;
+}
+
+.submission-note {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.submission-email {
+  font-weight: bold;
+  color: #c00;
+  /* Highlight the email */
+  text-decoration: none;
+  display: block;
+  margin: 0.5rem 0;
+}
+
+.submission-email:hover {
+  text-decoration: underline;
+}
+
+.submission-format {
+  font-size: 0.95rem;
+  text-align: left;
+  max-width: 80%;
+  margin: 0.5rem auto;
+  padding-left: 20px;
+  border-left: 3px solid #ccc;
+}
+
+.submit-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: var(--accent-color);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  margin-top: 1.5rem;
+}
+
+.submit-button:hover {
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+
+  .topics-grid,
+  .guidelines-accordion {
+    grid-template-columns: 1fr;
+  }
+
+  /* .guideline-card, */
+  .submission-info {
+    padding: 1.5rem;
+  }
+
+  .submission-format {
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+/* Existing CSS */
+.call-for-papers {
+  background-color: var(--light-bg);
+}
+
+.cfp-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.topics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.topic-card {
+  background-color: var(--white);
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+  /* Add cursor pointer to indicate interactivity */
+  display: flex;
+  /* Change to flex for vertical layout */
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* For the details panel positioning */
+}
+
+/* Style for the active/open card */
+.topic-card.active {
+  background-color: var(--primary-color, #007bff);
+  /* Use a default color if primary-color is not defined */
+  color: var(--white, #fff);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: translateY(-5px);
+}
+
+
+/* New styles for the details panel */
+.topic-details-panel {
+  width: 100%;
+  /* Position absolutely or change grid structure for full-width display */
+  /* For a simple accordion effect inside the card: */
+  text-align: left;
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  /* Lighter border for contrast */
+}
+
+.topic-details-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.topic-details-panel li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+.topic-details-panel .checkbox-icon {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  color: inherit;
+  /* Inherits the white color from .topic-card.active */
+}
+
+
+/* Adjust grid for better display when a panel is open. 
+   NOTE: For an 'accordion-like' effect covering the grid, 
+   you might need a different component structure (e.g., using an Accordion 
+   component instead of a simple grid of cards). 
+   The current implementation shows the details *inside* the card. */
+.topics-grid {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+
+/* Existing CSS continued */
+.topic-card:hover {
+  transform: translateY(-3px);
+}
+
+.guidelines-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.guideline-card {
+  /* background-color: var(--white); */
+  /* background-color: #F5F5F5; */
+  background-color: #007bff1f;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.guideline-card h4 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.submission-info {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.submission-info h4 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.submission-info p {
+  margin-bottom: 1.5rem;
+  text-align: left
+}
+
+.submission-info ul {
+  /* margin-bottom: 1.5rem; */
+  text-align: left
+}
+
+.submit-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: var(--accent-color);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+
+  .topics-grid,
+  .guidelines-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .guideline-card,
+  .submission-info {
+    padding: 1.5rem;
+  }
+
+  .topic-card.active {
+    /* Allow the card to expand vertically */
+    height: auto;
+  }
+}
+
+/* Existing CSS */
+.call-for-papers {
+  background-color: var(--light-bg);
+}
+
+.cfp-content {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+/* -------------------------------------- */
+/* ACCORDION STYLES (REVERTED TO LIGHT THEME) */
+/* -------------------------------------- */
+
+.topics-accordion {
+  margin-top: 1rem;
+  /* Removed border-radius here to get squared edges like the screenshot */
+  overflow: hidden;
+}
+
+.accordion-item {
+  margin-bottom: 0.2rem;
+  /* Small gap between items */
+  /* Removed individual item shadow, will put shadow on header */
+}
+
+.accordion-header {
+  /* Reverting to the look of your old .topic-card */
+  /* background-color: var(--white, #fff);  */
+  background-image: linear-gradient(90deg, #1ca9c9 0%, #020a66 100%);
+  transition: background-image 0.4s ease, color 0.3s ease;
+  /* color: #333; */
+  /* Dark text color */
+  color: var(--white, #fff);
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  /* Light shadow like the original cards */
+  /* border-radius: 8px; Added back radius to the header */
+  /* margin-bottom: 0.5rem; Space between headers */
+}
+
+.accordion-header:hover {
+  /* background-color: #f8f8f8;  */
+  background-image: linear-gradient(90deg, #1A237E 0%, #1A237E 100%);
+  /* Very light shade on hover */
+  /* background-color: #007bff1f; */
+  /* background-color: red; */
+
+}
+
+.accordion-header.active {
+  /* background-color: var(--primary-color, #007bff); */
+  /* Use primary color for ACTIVE state */
+  background-image: linear-gradient(90deg, #1A237E 0%, #1A237E 100%);
+  color: var(--white, #fff);
+  font-weight: bold;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Ensure the toggle icon is visible in both states */
+.toggle-icon {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-left: 1rem;
+  /* Color handled by parent .accordion-header */
+}
+
+/* The content panel should now be directly below the header */
+.accordion-content {
+  background-color: var(--white, #fff);
+  padding: 1rem 1.5rem 1.5rem 1.5rem;
+  /* Adjusted padding */
+  margin-top: -0.5rem;
+  /* Pull up to join the header if needed */
+  border-radius: 0 0 8px 8px;
+  /* Rounded corners only at the bottom */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.05);
+  /* Shadow for separation */
+}
+
+.accordion-content ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.accordion-content li {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: flex-start;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #555;
+  /* Slightly muted text */
+}
+
+.accordion-content .checkbox-icon {
+  font-weight: bold;
+  margin-right: 0.5rem;
+  color: var(--primary-color, #007bff);
+  /* Use the primary color for the checkmark */
+}
+
+
+/* -------------------------------------- */
+/* GUIDELINES STYLES (KEPT UNCHANGED) */
+/* -------------------------------------- */
+.guidelines-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.guideline-card {
+  /* background-color: var(--white); */
+  /* background-color: #F5F5F5; */
+  background-color: #007bff1f;
+  padding: 2rem;
+  border-radius: 8px;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  box-shadow: 0 2px 4px #1e3a8a;
+}
+
+.guideline-card h4 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.submission-info {
+  margin-top: 3rem;
+  text-align: center;
+  padding: 2rem;
+  background-color: var(--white);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.submission-info h4 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.submission-info p {
+  margin-bottom: 1.5rem;
+}
+
+.submit-button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-color: var(--accent-color);
+  color: var(--white);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  .guidelines-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .guideline-card,
+  .submission-info {
+    padding: 1.5rem;
+  }
+}

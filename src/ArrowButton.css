@@ -1,0 +1,36 @@
+.arrow-btn {
+  width: 55px;
+  height: 55px;
+  border: none;
+  border-radius: 50%;
+  color: white;
+  font-size: 22px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Page scroll buttons */
+.page-btn {
+  background-color: #1976d2;
+  /* blue */
+}
+
+.page-btn:hover {
+  background-color: #1258a8;
+}
+
+/* Absolute scroll buttons */
+.absolute-btn {
+  background-color: #673ab7;
+  /* purple */
+}
+
+.absolute-btn:hover {
+  background-color: #512da8;
+}
+
+/* Tooltip using title attribute */
+.arrow-btn:hover {
+  transform: scale(1.1);
+}
