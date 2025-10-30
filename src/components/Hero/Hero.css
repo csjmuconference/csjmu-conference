@@ -1,38 +1,64 @@
 .hero {
-  height: 100vh;
-  background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%);
+  min-height: 100vh;
+  /* background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); */
+  background:#07183C;
   background-size: cover;
   background-position: center;
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding-top: 40px; /* ✅ Prevents overlap with navbar */
+  padding-bottom: 10px; /* ✅ Keeps Register button inside */
 }
 
 .hero-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
+  position: relative; /* ✅ Changed from absolute to relative for stable flow */
   width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  height: auto;
+  /* background: rgba(0, 0, 0, 0.6); */
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
+  padding: 2rem 1rem;
+  box-sizing: border-box;
 }
 
 .hero-content {
   color: var(--white);
-  padding: 20px;
-  margin-top: 60px;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  height: 6rem;
+  width: 6rem;
+  object-fit: contain;
+  border-radius: 4px;
 }
 
 .hero-content h1 {
-  font-size: 3.5rem;
+  font-size: clamp(2rem, 4vw, 3.5rem);
   margin-bottom: 1rem;
   font-weight: 700;
+  line-height: 1.2;
 }
 
 .hero-content h2 {
-  font-size: 2rem;
+  font-size: clamp(1.2rem, 2.5vw, 2rem);
   margin-bottom: 2rem;
   font-weight: 400;
 }
@@ -42,7 +68,7 @@
 }
 
 .hero-details p {
-  font-size: 1.2rem;
+  font-size: clamp(1rem, 1.5vw, 1.2rem);
   margin: 0.5rem 0;
 }
 
@@ -54,39 +80,57 @@
   text-decoration: none;
   border-radius: 5px;
   font-size: 1.2rem;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
 .cta-button:hover {
   background-color: var(--secondary-color);
+  transform: scale(1.05);
+}
+
+/* ✅ Responsive adjustments */
+@media (max-width: 992px) {
+  .logo {
+    height: 5rem;
+    width: 5rem;
+  }
 }
 
 @media (max-width: 768px) {
+  .logo {
+    height: 4rem;
+    width: 4rem;
+  }
+
   .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: clamp(1.8rem, 5vw, 2.5rem);
   }
 
   .hero-content h2 {
-    font-size: 1.5rem;
+    font-size: clamp(1rem, 4vw, 1.5rem);
+  }
+
+  .cta-button {
+    font-size: 1rem;
+    padding: 0.8rem 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    height: 3.5rem;
+    width: 3.5rem;
+  }
+
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.2rem;
   }
 
   .hero-details p {
-    font-size: 1rem;
+    font-size: 0.95rem;
   }
-}
-
-.logo-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap: 16px;
-  margin-bottom: 24px;
-}
-
-.logo {
-  height: 6rem;
-  width: 6rem;
-  object-fit: contain;
-  border-radius: 4px;
 }

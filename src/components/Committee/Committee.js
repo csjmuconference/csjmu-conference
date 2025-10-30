@@ -168,7 +168,8 @@ const Committee = () => {
       { name: "Mr. Sudhanshu Kumar Viplav", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Ms. Hemlata Ninoriya", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Mr. Prerit Narayan Mishra", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
-      { name: "Ms. Shailja Sachan", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" }
+      { name: "Ms. Shailja Sachan", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
+    { name: "Ms. Mohit Awasthi", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" }
     ]
 
 
