@@ -5,19 +5,19 @@ const ImportantDates = () => {
   const dates = [
     {
       event: "Last Date for Abstract Submission",
-      date: "January 15, 2026"
+      date: "March 20, 2026"
     },
     {
-      event: "Notification of Abstract Acceptance",
-      date: "January 31, 2026"
+      event: "Notification of Abstract Acceptance ( within one week of abstract submission )",
+      date: "March 27, 2026"
     },
-    {
-      event: "Early Bird Registration (optional)",
-      date: "March 1, 2026"
-    },
+    // {
+    //   event: "Early Bird Registration (optional)",
+    //   date: "March 1, 2026"
+    // },
     {
       event: "Last Date for Full Paper Submission & Registration",
-      date: "April 1, 2026"
+      date: "April 10, 2026"
     },
     {
       event: "Conference Dates",

@@ -7,23 +7,23 @@ import qrcode1 from '../../logo/qrcode1.png';
 const Registration = () => {
   const fees = [
     {
-      category: "Students/ Research Scholars",
-      academic: "INR 1500",
-      industry: "INR 3000",
+      category: "Students / Research Scholars",
+      academic: "INR 1000",
+      industry: "INR 2000",
       // student: "₹1,500",
       // international: "$200"
     },
     {
-      category: " Academicians and others",
+      category: " Academicians / Professionals / others",
       academic: "INR 2000",
-      industry: "INR 4000",
+      industry: "INR 3000",
       // student: "₹2,000",
       // international: "$250"
     },
     {
       category: " International Delegates",
-      academic: "50 USD",
-      industry: "50 USD",
+      academic: "USD 50",
+      industry: "USD 50",
       // student: "₹2,000",
       // international: "$250"
     }

@@ -10,7 +10,7 @@ const About = () => {
           <div className="about-container">
 
             <section className="about-text">
-              <h2 className="section-title">About the University</h2>
+              <h2 className="section-title">About the CSJMU</h2>
               <p>
                 Chhatrapati Shahu Ji Maharaj University Kanpur, a premier landmark of
                 higher education in Uttar Pradesh, is named after the great social
@@ -40,7 +40,7 @@ const About = () => {
               </p>
             </section>
             <section className="about-text">
-              <h2 className="section-title">About ABVSLS</h2>
+              <h2 className="section-title">About Atal Bihari Vajpayee School Of Legal Studies </h2>
               <p>
                 Atal Bihari Vajpayee School of Legal Studies, Kanpur, stands for
                 excellence in legal education and was established in 2017 under the

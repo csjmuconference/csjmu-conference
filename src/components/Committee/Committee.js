@@ -6,9 +6,12 @@ import c3 from '../../logo/c3.jpg';
 import c4 from '../../logo/c4.jpeg';
 import c5 from '../../logo/c5.jpeg';
 import c6 from '../../logo/c6.jpeg';
-import c7 from '../../logo/c7.jpg';
+import c7 from '../../logo/c7.jpeg';
 import c8 from '../../logo/c8.jpg';
 import c9 from '../../logo/c9.jpeg';
+import c10 from '../../logo/c10.jpeg';
+import c11 from '../../logo/c11.jpeg';
+import c12 from '../../logo/c12.jpg';
 const Committee = () => {
   const committees = {
     organizing: [
@@ -41,17 +44,17 @@ const Committee = () => {
         isKeynote: true
       },
       {
-        name: "Dr. Pankaj Dwivedi",
-        role: "Academics Conference Chair",
-        title: "Director, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur",
-        imageUrl: c5,
-        isKeynote: true
-      },
-      {
         name: "Dr. ShashiKant Tripathi",
-        role: "Academics Conference Co-Chair",
+        role: "Academics Conference Chair",
         title: "Associate Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur",
         imageUrl: c6,
+        isKeynote: true
+      },
+       {
+        name: "Dr. Rahul Tiwari",
+        role: "Academics Conference Co-Chair",
+        title: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur",
+        imageUrl: c12,
         isKeynote: true
       },
       {
@@ -64,15 +67,22 @@ const Committee = () => {
       {
         name: "Dr. Smriti Roy",
         role: "Convenor",
-        title: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur",
+        title: "Director, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur",
         imageUrl: c8,
         isKeynote: true
       },
       {
-        name: "Ms. Meghna Bajpai",
-        role: "Convenor",
+        name: "Ms. Kaushiki Trived",
+        role: "Co-Convenor",
         title: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur",
-        imageUrl: c9,
+        imageUrl: c10,
+        isKeynote: true
+      },
+      {
+        name: "Ms. Deeksha Bajpai",
+        role: "Co-Convenor",
+        title: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur",
+        imageUrl: c11,
         isKeynote: true
       },
     ]
@@ -100,50 +110,18 @@ const Committee = () => {
         name: "Prof. Uday Shankar",
         institution: "Rajiv Gandhi School of Intellectual Property Law, IIT Kharagpur"
       },
-      {
-        name: "Prof. Pravin Mishra",
-        institution: "HOD, Department of Law, Sikkim University, Gangtok"
-      },
-      {
-        name: "Prof. R. K. Singh",
-        institution: "Ex-Head & Dean, Department of Law, Punjabi University, Patiala"
-      },
-      {
-        name: "Prof. Bharat",
-        institution: "Dean, Information & Public Relations, University Institute of Legal Studies, Chandigarh University, Chandigarh"
-      },
-      {
-        name: "Prof. A. K. Mohapatra",
-        institution: "School of International Studies, Jawaharlal Nehru University, New Delhi"
-      },
-      {
-        name: "Prof. Ripu Sudan Singh",
-        institution: "Head, Department of Public Administration, Babasaheb Bhimrao Ambedkar University, Lucknow"
-      },
+
       {
         name: "Prof. (Dr.) Manish Singh",
         institution: "Dr. Ram Manohar Lohiya National Law University, Lucknow"
       },
-      {
-        name: "Prof. Adesh Kumar",
-        institution: "Dean, Faculty of Law, University of Allahabad, Prayagraj, U.P."
-      },
-      {
-        name: "Prof. Kamleshwar Prasad",
-        institution: "Head of Department, Meerut College, Meerut (CCSU)"
-      },
-      {
-        name: "Prof. R. K. Upadhyay",
-        institution: "Meerut College, Meerut"
-      },
+  
+  
       {
         name: "Dr. Amandeep Singh",
         institution: "Dr. Ram Manohar Lohiya National Law University, Lucknow"
       },
-      {
-        name: "Dr. Vikas Bhati",
-        institution: "Dr. Ram Manohar Lohiya National Law University, Lucknow"
-      },
+    
       {
         name: "Dr. Manvandra Kumar Singh",
         institution: "Associate Professor, Department of Mechanical Engineering, Graphic Era University, Dehradun"
@@ -152,18 +130,13 @@ const Committee = () => {
 
     organizingcommittee: [
 
-      { name: "Dr. Rahul Tiwari", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Dr. Pramod Kumar", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Dr. Samiuddin", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Mrs. Mayuri Singh", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Mr. Ashok Kumar", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
-      { name: "Mr. Samarendra Chauhan", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Mr. Rishi Srivastava", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
-      { name: "Ms. Kaushiki Trivedi", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
-      { name: "Mr. Gyanendra Singh", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
-      { name: "Mr. Jitesh Sharma", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
+      { name: "Ms. Meghna Bajpai", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Ms. Vidhi Katiyar", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
-      { name: "Ms. Deeksha Bajpai", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Mr. Shrish Pandey", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Mr. Sudhanshu Kumar Viplav", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Ms. Hemlata Ninoriya", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },

@@ -24,8 +24,8 @@ const Contact = () => {
                 <i className="fas fa-phone"></i>
                 <div>
                   <h4>Phone</h4>
-                  <p>+91-512-2570301</p>
-                  <p>+91-512-2570302</p>
+                  <p>+91-9839686849</p>
+                  <p>+91-7905295155</p>
                 </div>
               </div>
 
@@ -33,8 +33,8 @@ const Contact = () => {
                 <i className="fas fa-envelope"></i>
                 <div>
                   <h4>Email</h4>
-                  <p>conference@csjmu.ac.in</p>
-                  <p>info@csjmu.ac.in</p>
+                  <p>csjmuconference@gmail.com</p>
+                  {/* <p>info@csjmu.ac.in</p> */}
                 </div>
               </div>
 
@@ -51,7 +51,7 @@ const Contact = () => {
                     <i className="fab fa-facebook-f"></i>
                   </a>
                   <a
-                    href="https://www.instagram.com/csjmuofficial/"
+                    href="https://www.instagram.com/abvsls_csjmu/?hl=en"
                     className="social-icon"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -60,7 +60,7 @@ const Contact = () => {
                     <i className="fab fa-instagram"></i>
                   </a>
                   <a
-                    href="https://www.linkedin.com/school/chatrapati-sahuji-maharaj-kanpur-university-kanpur/?originalSubdomain=in"
+                    href="https://www.linkedin.com/in/atal-bihari-vajpayee-school-of-legal-studies-csjm-university-31ba0b321/"
                     className="social-icon"
                     target="_blank"
                     rel="noopener noreferrer"

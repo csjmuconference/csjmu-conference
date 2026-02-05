@@ -95,7 +95,7 @@ const SpeakerCard = ({ speaker }) => {
     // Determine the card class based on the type of speaker if needed, 
     // but here we use a generic class for the main structure
     return (
-        <div className="speaker-card">
+        <div className="speaker-card" id="keynoteSpeakers">
             <div className="speaker-image-container">
                 <img
                     src={speaker.imageUrl}

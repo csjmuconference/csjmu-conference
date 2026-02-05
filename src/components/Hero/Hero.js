@@ -3,13 +3,16 @@ import './Hero.css';
 import l1 from '../../logo/l1.webp';
 import l2 from '../../logo/l2.webp';
 import l3 from '../../logo/l3.webp';
+import bgImage1 from '../../logo/bgImage1.jpeg';
 
 const Hero = () => {
   const handleClick = () => {
     alert('Registeration will start soon!');
   };
   return (
-    <section className="hero" id="home">
+    <section className="hero" id="home" 
+    // style={{ backgroundImage: `url(${bgImage1})` }}
+    >
       <div className="hero-overlay">
         <div className="container hero-content">
           <div className="logo-container">

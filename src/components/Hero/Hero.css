@@ -1,7 +1,14 @@
 .hero {
-  min-height: 90vh;
+  min-height: 60vh;
   /* background: linear-gradient(135deg, var(--primary-color) 0%, var(--secondary-color) 100%); */
-  background:#07183C;
+  /* background:#07183C; */
+  /* We combine the blue tint and the image in ONE line here */
+  /* This creates a 85% transparent blue layer over the image */
+  background: linear-gradient(
+      rgba(7, 24, 60, 0.65), 
+      rgba(7, 24, 60, 0.65)
+    ), 
+    url('../../logo/bgImage4.jpeg');
   background-size: cover;
   background-position: center;
   position: relative;
@@ -10,7 +17,7 @@
   justify-content: center;
   overflow: hidden;
   box-sizing: border-box;
-  padding-top: 40px; /* ✅ Prevents overlap with navbar */
+  /* padding-top: 40px; ✅ Prevents overlap with navbar */
   padding-bottom: 10px; /* ✅ Keeps Register button inside */
 }
 
@@ -19,16 +26,19 @@
   width: 100%;
   height: auto;
   /* background: rgba(0, 0, 0, 0.6); */
+  
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   padding: 2rem 1rem;
   box-sizing: border-box;
+  /* background: rgba(7, 24, 60, 0.85); */
 }
 
 .hero-content {
   color: var(--white);
+  /* z-index: 2; */
   max-width: 1000px;
   width: 100%;
   margin: 0 auto;

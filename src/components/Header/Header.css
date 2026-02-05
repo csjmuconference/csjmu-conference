@@ -1,7 +1,7 @@
 .header {
   background-color: var(--primary-color);
   padding: 1rem 0;
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0;
   z-index: 1000;
@@ -12,6 +12,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+ 
 }
 
 .logo h1 {
@@ -24,6 +25,8 @@
   display: flex;
   list-style: none;
   gap: 2rem;
+  flex-wrap: wrap; 
+  justify-content: center;
 }
 
 .nav-menu a {

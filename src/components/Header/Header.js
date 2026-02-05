@@ -36,6 +36,8 @@ const Header = () => {
             <li><a href="#call-for-papers" onClick={closeMenu}>GuideLines</a></li>
             <li><a href="#important-dates" onClick={closeMenu}>Important Dates</a></li>
             <li><a href="#registration" onClick={closeMenu}>Registration</a></li>
+            {/* <li><a href="#keynoteSpeakers" onClick={closeMenu}>Keynote Speakers</a></li> */}
+            {/* <li><a href="#publication" onClick={closeMenu}>Publication</a></li> */}
             <li><a href="#gallery" onClick={closeMenu}>Gallery</a></li>
             <li><a href="#attractions" onClick={closeMenu}>Attractions</a></li>
             {/* <li><a href="#downloads" onClick={closeMenu}>Downloads</a></li> */}
