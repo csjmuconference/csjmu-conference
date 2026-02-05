@@ -11,6 +11,7 @@
     url('../../logo/bgImage4.jpeg');
   background-size: cover;
   background-position: center;
+  background-repeat: no-repeat; /* Ensure it doesn't tile */
   position: relative;
   display: flex;
   align-items: center;
@@ -20,6 +21,12 @@
   /* padding-top: 40px; ✅ Prevents overlap with navbar */
   padding-bottom: 10px; /* ✅ Keeps Register button inside */
 }
+
+
+
+
+
+
 
 .hero-overlay {
   position: relative; /* ✅ Changed from absolute to relative for stable flow */
@@ -107,6 +114,7 @@
 }
 
 @media (max-width: 768px) {
+  
   .logo {
     height: 5rem;
     width: 5rem;
@@ -127,6 +135,8 @@
 }
 
 @media (max-width: 480px) {
+ 
+  
   .logo {
     height: 5rem;
     width: 5rem;
