@@ -12,6 +12,7 @@ import c9 from '../../logo/c9.jpeg';
 import c10 from '../../logo/c10.jpeg';
 import c11 from '../../logo/c11.jpeg';
 import c12 from '../../logo/c12.jpg';
+import c14 from '../../logo/c14.jpeg';
 const Committee = () => {
   const committees = {
     organizing: [
@@ -79,10 +80,10 @@ const Committee = () => {
         isKeynote: true
       },
       {
-        name: "Ms. Deeksha Bajpai",
+        name: "Ms.Vidhi Katiyar",
         role: "Co-Convenor",
         title: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur",
-        imageUrl: c11,
+        imageUrl: c14,
         isKeynote: true
       },
     ]
@@ -136,8 +137,7 @@ const Committee = () => {
       { name: "Mr. Ashok Kumar", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Mr. Rishi Srivastava", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Ms. Meghna Bajpai", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
-      { name: "Ms. Vidhi Katiyar", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
-      { name: "Mr. Shrish Pandey", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
+      { name: "Ms.  Deeksha Bajpai", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Mr. Sudhanshu Kumar Viplav", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Ms. Hemlata Ninoriya", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Mr. Prerit Narayan Mishra", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },

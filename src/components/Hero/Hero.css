@@ -114,6 +114,15 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    /* Mobile ke liye alag photo yahan dalein */
+    background: linear-gradient(rgba(7, 24, 60, 0.75), rgba(7, 24, 60, 0.75)), 
+                url('../../logo/bgImage5.jpeg') !important;
+    
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 55vh; /* Mobile photo ke hisab se height adjust karein */
+  }
   
   .logo {
     height: 5rem;

@@ -24,8 +24,9 @@ const Contact = () => {
                 <i className="fas fa-phone"></i>
                 <div>
                   <h4>Phone</h4>
-                  <p>+91-9839686849</p>
-                  <p>+91-7905295155</p>
+                   <p>Piyush: +91-7905295155</p>
+                  <p>Khushi: +91-9839686849</p>
+                 
                 </div>
               </div>
 
