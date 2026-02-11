@@ -231,7 +231,7 @@ const CallForPapers = () => {
             </div> */}
 
             <div className="submission-info">
-              <h4>Submission Guide lines</h4>
+              <h4>Submission Guidelines</h4>
               <p text-align="left!important">
 
                 Participants are initially required to submit an

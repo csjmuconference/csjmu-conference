@@ -15,6 +15,9 @@ import gallery12 from '../logo/gallery12.jpeg';
 import gallery13 from '../logo/gallery13.jpeg';
 import gallery14 from '../logo/gallery14.jpeg';
 import gallery15 from '../logo/gallery15.jpeg';
+import gallery16 from '../logo/gallery16.JPG';
+import gallery17 from '../logo/gallery17.jpg';
+import gallery18 from '../logo/gallery18.jpg';
 import g1 from '../logo/g1.JPG';
 import g2 from '../logo/g2.JPG';
 import g3 from '../logo/g3.JPG';
@@ -26,6 +29,7 @@ import g8 from '../logo/g8.JPG';
 import g9 from '../logo/g9.JPG';
 import g10 from '../logo/g10.jpg';
 import g11 from '../logo/g11.jpg';
+import bgImage3 from '../logo/bgImage3.jpeg';
 
 
 // --- Placeholder Data ---
@@ -34,12 +38,15 @@ const allGalleryImages = [
     { url: g1, alt: 'image' },
     { url: g2, alt: 'image' },
     { url: g3, alt: 'image' },
+    { url: gallery16, alt: 'image' },
     { url: g4, alt: 'image' },
     { url: g5, alt: 'image' },
+     { url: gallery17, alt: 'image' },
     { url: g6, alt: 'image' },
-    { url: g7, alt: 'image' },
+    { url: bgImage3, alt: 'image' },
     { url: g8, alt: 'image' },
     { url: g9, alt: 'image' },
+     { url: gallery18, alt: 'image' },
     { url: g10, alt: 'image' },
     { url: g11, alt: 'image' },
     // { url: gallery1 , alt: 'image' },

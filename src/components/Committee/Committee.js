@@ -7,12 +7,18 @@ import c4 from '../../logo/c4.jpeg';
 import c5 from '../../logo/c5.jpeg';
 import c6 from '../../logo/c6.jpeg';
 import c7 from '../../logo/c7.jpeg';
-import c8 from '../../logo/c8.jpg';
+import c8 from '../../logo/c8.jpeg';
 import c9 from '../../logo/c9.jpeg';
 import c10 from '../../logo/c10.jpeg';
 import c11 from '../../logo/c11.jpeg';
-import c12 from '../../logo/c12.jpg';
+import c12 from '../../logo/c12.jpeg';
 import c14 from '../../logo/c14.jpeg';
+import c15 from '../../logo/c15.jpeg';
+// import c16 from '../../logo/c16.jpeg';
+// import c17 from '../../logo/c17.jpeg';
+import c18 from '../../logo/c18.jpeg';
+import c19 from '../../logo/c19.jpeg';
+import c20 from '../../logo/c20.jpeg';
 const Committee = () => {
   const committees = {
     organizing: [
@@ -73,17 +79,17 @@ const Committee = () => {
         isKeynote: true
       },
       {
-        name: "Ms. Kaushiki Trived",
+        name: "Ms. Kaushiki Trivedi",
         role: "Co-Convenor",
         title: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur",
-        imageUrl: c10,
+        imageUrl: c20,
         isKeynote: true
       },
       {
         name: "Ms.Vidhi Katiyar",
         role: "Co-Convenor",
         title: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur",
-        imageUrl: c14,
+        imageUrl: c18,
         isKeynote: true
       },
     ]

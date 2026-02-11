@@ -3,6 +3,7 @@ import './Registration.css';
 import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import QrCode2Icon from '@mui/icons-material/QrCode2';
 import qrcode1 from '../../logo/qrcode1.png';
+import qrcode2 from '../../logo/qrcode2.png';
 
 const Registration = () => {
   const fees = [
@@ -97,29 +98,37 @@ const Registration = () => {
             <h3>Ready to Join?</h3>
             <p>Register now to secure your spot at the conference</p>
             <a
-              // href="https://docs.google.com/forms/d/e/1FAIpQLSeCzsqfL9feuHP44JlxmpqYp6SXxiGuRVLopLqmR4ZI4RgDwg/viewform"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSf5Y1_TDAg2yxIY_ZppQeDiRODfaUQRzIhOwCTbiOA9fVeXOw/viewform?usp=header"
               className="register-button"
-              onClick={handleClick}
+              // onClick={handleClick}
             >
               Register Now
             </a>
           </div>
 
           {/* ===== Payment Details Section ===== */}
-          {/* <div className="payment-info">
+          <div className="payment-info">
             <h3>
               <AccountBalanceIcon className="icon" /> Payment Details
             </h3>
             <div className="payment-details">
               <div className="bank-details">
-                 <p><strong>Organisation:</strong> CSJM UNIVERSITY</p> 
+                {/* <p>Note :</p> */}
+                <ul>
+              <li><p>After submission of the full paper, authors will receive an acceptance email.</p></li>
+              <li><p>Complete the payment using the Payment Link provided below or by scanning the QR code.</p>
+                   <p>Payment Link: <a href=" https://p.ppsl.io/PYTMPS/fQicqk"> https://p.ppsl.io/PYTMPS/fQicqk</a></p></li>
+              <li><p>Registration will be confirmed only after successful payment.</p></li>
+              <li><p>If you face any issues regarding registration or payment, please contact us at conference.abvsls@csjmu.ac.in .</p></li>
+                </ul>
+                 {/* <p><strong>Organisation:</strong> CSJM UNIVERSITY</p> 
                 <p><strong>Bank Name:</strong> State Bank of India</p>
                 <p><strong>Bank Address:</strong> CSJM UNIVERSITY, KALYANPUR, KANPUR</p>
                 <p><strong>Account Number:</strong> 40465185585</p>
                 <p><strong>IFSC Code:</strong> SBIN0064085</p>
                 <p><strong>BIC/SWIFT:</strong> SBININBB499</p>
-                <p><strong>IBAN:</strong> 40465185585</p>
-                <p className="note">* Please send the payment confirmation to <a href="mailto:conference@csjmu.ac.in">conference@csjmu.ac.in</a></p>
+                <p><strong>IBAN:</strong> 40465185585</p> */}
+                {/* <p className="note">* Please send the payment confirmation to <a href="mailto:conference@csjmu.ac.in">conference@csjmu.ac.in</a></p> */}
               </div>
 
               <div className="qr-section">
@@ -129,7 +138,7 @@ const Registration = () => {
                     <p className="scan-text"><QrCode2Icon /> Scan To Pay</p>
                     <div className="qr-container">
                       <img
-                        src={qrcode1}
+                        src={qrcode2}
                         alt="Payment QR Code"
                         onError={(e) => {
                           e.currentTarget.onerror = null;
@@ -141,7 +150,7 @@ const Registration = () => {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
 
         </div>
       </div>

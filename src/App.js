@@ -229,7 +229,7 @@ function App() {
       <CallForPapers />
       <ImportantDates />
       <Registration />
-      {/* <KeynoteSpeakers /> */}
+      <KeynoteSpeakers />
       {/* <Publications /> */}
       <Gallery />
       <Attractions />

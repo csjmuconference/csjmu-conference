@@ -147,7 +147,9 @@ tr:nth-child(even) {
   color: rgb(0, 10, 79);
 }
 
-
+ul li::marker {
+  color: rgb(255, 255, 255); /* Set the desired color */
+}
 .qr-section {
   flex: 1 1 35%;
   display: flex;

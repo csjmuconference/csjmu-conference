@@ -24,8 +24,8 @@ const Contact = () => {
                 <i className="fas fa-phone"></i>
                 <div>
                   <h4>Phone</h4>
-                   <p>Piyush: +91-7905295155</p>
-                  <p>Khushi: +91-9839686849</p>
+                   <p>Piyush Pandey: +91-7905295155</p>
+                  <p>Khushi singh: +91-9839686849</p>
                  
                 </div>
               </div>
@@ -34,9 +34,9 @@ const Contact = () => {
                 <i className="fas fa-envelope"></i>
                 <div>
                   <h4>Email</h4>
-                  <p>csjmuconference@gmail.com</p>
+                  <p>conference.abvsls@csjmu.ac.in</p>
                   {/* <p>info@csjmu.ac.in</p> */}
-                </div>
+                </div> 
               </div>
 
               <div className="social-links">

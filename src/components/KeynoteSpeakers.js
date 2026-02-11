@@ -15,80 +15,90 @@ import gallery12 from '../logo/gallery12.jpeg';
 import gallery13 from '../logo/gallery13.jpeg';
 import gallery14 from '../logo/gallery14.jpeg';
 import gallery15 from '../logo/gallery15.jpeg';
+import c15 from '../logo/c15.jpeg';
 
 
 // Placeholder data for speakers (based on the latest screenshots)
 const speakersData = [
     {
-        name: 'Prof. Alvaro Rocha',
-        title: 'Professor of Information Systems',
-        affiliation: 'ISEG, University of Lisbon, Portugal',
-        details: 'World\'s Top 1% Scientist, according to Stanford University and Elsevier ISEM\'s Book Series Scientific Manager at Springer Nature. Chair of ITIMA, Information and Technology Management Association. Founder and Vice Chair of IEEE SMC Portugal Chapter. Invited Professor at University of Calabria, Italy. CEO of SMART-iTS Consulting, Dubai',
-        imageUrl: gallery1,
-        isKeynote: true
-    },
-    {
-        name: 'Prof. Sergei Levashkin',
-        title: 'Professor',
-        affiliation: 'Director at Artificial Intelligence Lab, Russia',
-        details: 'Director at Artificial Intelligence Lab. Leading researcher in ML and AI applications.',
-        imageUrl: gallery2,
-        isKeynote: true
-    },
-    {
-        name: 'Dr. Hari Mohan Pandey',
-        title: 'Associate Professor (Sr. Lecturer) Data Science and Artificial Intelligence',
-        affiliation: 'Bournemouth University, U.K.',
-        details: 'Top 2% scientist (2022 World Ranking list by Stanford University). Published extensively in high-impact journals.',
-        imageUrl: gallery3,
-        isKeynote: true
-    },
-    {
-        name: 'Dr. Govind P Gupta',
-        title: 'NIT Raipur',
-        affiliation: 'Enlisted in Global ADI (Albert-Dogan) Scientific Index 2024 list.',
-        details: 'Enlisted in Global ADI (Albert-Dogan) Scientific Index 2024 list.',
-        imageUrl: gallery4,
-        isKeynote: true
-    },
-    {
-        name: 'Dr. Rajeev K Shakya',
-        title: 'Department of Electrical Engineering & Computing Engineering',
-        affiliation: 'Adama Science & Technology University, Adama Ethiopia',
-        details: 'Expert in renewable energy and power systems optimization.',
-        imageUrl: gallery5,
-        isKeynote: true
-    },
-    {
-        name: 'Dr. Vinay Kumar Kasula',
-        title: 'Sr. Systems Application Analyst',
-        affiliation: 'Visca Inc, Ashburn, Virginia, USA',
-        details: 'Specializes in systems security and data analytics.',
-        imageUrl: gallery6,
-        isKeynote: true
-    },
+    name: 'Swapnil Tripathi',
+    title: 'Lead – Charkha (Centre for Constitutional Law) | Advocate',
+    affiliation: 'Vidhi Centre for Legal Policy, New Delhi, India',
+    details: 'Lead at Charkha, Vidhi Centre for Legal Policy. DPhil in Law (University of Oxford) specialising in Public Interest Litigation and constitutional law.',
+    imageUrl: c15,
+    isKeynote: true
+},
+
+    // {
+    //     name: 'Prof. Alvaro Rocha',
+    //     title: 'Professor of Information Systems',
+    //     affiliation: 'ISEG, University of Lisbon, Portugal',
+    //     details: 'World\'s Top 1% Scientist, according to Stanford University and Elsevier ISEM\'s Book Series Scientific Manager at Springer Nature. Chair of ITIMA, Information and Technology Management Association. Founder and Vice Chair of IEEE SMC Portugal Chapter. Invited Professor at University of Calabria, Italy. CEO of SMART-iTS Consulting, Dubai',
+    //     imageUrl: gallery1,
+    //     isKeynote: true
+    // },  
+    // {
+    //     name: 'Prof. Sergei Levashkin',
+    //     title: 'Professor',
+    //     affiliation: 'Director at Artificial Intelligence Lab, Russia',
+    //     details: 'Director at Artificial Intelligence Lab. Leading researcher in ML and AI applications.',
+    //     imageUrl: gallery2,
+    //     isKeynote: true
+    // },
+    // {
+    //     name: 'Dr. Hari Mohan Pandey',
+    //     title: 'Associate Professor (Sr. Lecturer) Data Science and Artificial Intelligence',
+    //     affiliation: 'Bournemouth University, U.K.',
+    //     details: 'Top 2% scientist (2022 World Ranking list by Stanford University). Published extensively in high-impact journals.',
+    //     imageUrl: gallery3,
+    //     isKeynote: true
+    // },
+    // {
+    //     name: 'Dr. Govind P Gupta',
+    //     title: 'NIT Raipur',
+    //     affiliation: 'Enlisted in Global ADI (Albert-Dogan) Scientific Index 2024 list.',
+    //     details: 'Enlisted in Global ADI (Albert-Dogan) Scientific Index 2024 list.',
+    //     imageUrl: gallery4,
+    //     isKeynote: true
+    // },
+    // {
+    //     name: 'Dr. Rajeev K Shakya',
+    //     title: 'Department of Electrical Engineering & Computing Engineering',
+    //     affiliation: 'Adama Science & Technology University, Adama Ethiopia',
+    //     details: 'Expert in renewable energy and power systems optimization.',
+    //     imageUrl: gallery5,
+    //     isKeynote: true
+    // },
+    // {
+    //     name: 'Dr. Vinay Kumar Kasula',
+    //     title: 'Sr. Systems Application Analyst',
+    //     affiliation: 'Visca Inc, Ashburn, Virginia, USA',
+    //     details: 'Specializes in systems security and data analytics.',
+    //     imageUrl: gallery6,
+    //     isKeynote: true
+    // },
     // Adding non-keynote speakers from the second screenshot (Screenshot 68) for completeness
-    {
-        name: 'Dr. Akhila Reddy Yadulla',
-        title: 'Department of Information Technology',
-        affiliation: 'University of the Cumberlands, Williamsburg, Kentucky, USA',
-        imageUrl: gallery7,
-        isKeynote: false
-    },
-    {
-        name: 'Er. Abhinav Tripathi',
-        title: 'Senior Director',
-        affiliation: 'Smarsh Inc, UK',
-        imageUrl: gallery8,
-        isKeynote: false
-    },
-    {
-        name: 'Er. Anupama Aggarwal',
-        title: 'Lead Data Scientist / Product Owner',
-        affiliation: 'ZeroG Lufthansa Group, Germany',
-        imageUrl: gallery9,
-        isKeynote: false
-    },
+    // {
+    //     name: 'Dr. Akhila Reddy Yadulla',
+    //     title: 'Department of Information Technology',
+    //     affiliation: 'University of the Cumberlands, Williamsburg, Kentucky, USA',
+    //     imageUrl: gallery7,
+    //     isKeynote: false
+    // },
+    // {
+    //     name: 'Er. Abhinav Tripathi',
+    //     title: 'Senior Director',
+    //     affiliation: 'Smarsh Inc, UK',
+    //     imageUrl: gallery8,
+    //     isKeynote: false
+    // },
+    // {
+    //     name: 'Er. Anupama Aggarwal',
+    //     title: 'Lead Data Scientist / Product Owner',
+    //     affiliation: 'ZeroG Lufthansa Group, Germany',
+    //     imageUrl: gallery9,
+    //     isKeynote: false
+    // },
 ];
 
 const SpeakerCard = ({ speaker }) => {
