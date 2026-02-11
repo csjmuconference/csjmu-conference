@@ -22,9 +22,15 @@
 
 /* Speaker Grid Layout */
 .speakers-grid {
-    display: grid;
+    /* display: grid; */
     /* 3 columns on large screens */
-    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto; */
+    display: flex;          /* Grid ki jagah Flexbox use karein */
+    flex-wrap: wrap;        /* Responsive banane ke liye wrap allow karein */
+    justify-content: center; /* Ye ek card ho ya do, hamesha center rakhega */
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
@@ -32,14 +38,28 @@
 
 /* Individual Speaker Card */
 .speaker-card {
+    /* border: 1px solid #ddd;
+    border-radius: 8px; */
+    /* Slightly more rounded corners */
+    /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    background-color: #fff;
+    padding: 20px;
+    min-height: 280px; */
+    /* Ensure cards have a minimum uniform height */
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.3s ease; */
+    flex: 0 1 350px; /* Ye card ki width control karega: grow 0, shrink 1, basis 350px */
+    width: 100%;     /* Mobile ke liye full width support */
+    max-width: 380px; /* Card ko zyada bada hone se rokne ke liye */
+    
     border: 1px solid #ddd;
     border-radius: 8px;
-    /* Slightly more rounded corners */
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
     background-color: #fff;
     padding: 20px;
     min-height: 280px;
-    /* Ensure cards have a minimum uniform height */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -108,10 +128,10 @@
 /* --- Responsive Adjustments --- */
 
 @media (max-width: 900px) {
-    .speakers-grid {
-        grid-template-columns: repeat(2, 1fr);
+    /* .speakers-grid { */
+        /* grid-template-columns: repeat(2, 1fr); */
         /* 2 columns on tablets */
-    }
+    /* } */
 
     .speakers-section {
         padding: 20px;
@@ -119,10 +139,10 @@
 }
 
 @media (max-width: 600px) {
-    .speakers-grid {
-        grid-template-columns: 1fr;
+    /* .speakers-grid { */
+        /* grid-template-columns: 1fr; */
         /* 1 column on phones */
-    }
+    /* } */
 
     .speakers-title {
         font-size: 28px;

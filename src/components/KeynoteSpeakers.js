@@ -24,7 +24,7 @@ const speakersData = [
     name: 'Swapnil Tripathi',
     title: 'Lead – Charkha (Centre for Constitutional Law) | Advocate',
     affiliation: 'Vidhi Centre for Legal Policy, New Delhi, India',
-    details: 'Lead at Charkha, Vidhi Centre for Legal Policy. DPhil in Law (University of Oxford) specialising in Public Interest Litigation and constitutional law.',
+    details: 'Lead at Charkha, Vidhi Centre for Legal Policy. DPhil in Law (University of Oxford) specialising in Public Interest Litigation and Constitutional law.',
     imageUrl: c15,
     isKeynote: true
 },
