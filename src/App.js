@@ -168,6 +168,7 @@ import Header from './components/Header/Header';
 import Hero from './components/Hero/Hero';
 import About from './components/About/About';
 import Committee from './components/Committee/Committee';
+import StudentCoordinator from './components/StudentCoordinator/StudentCoordinator';
 import CallForPapers from './components/CallForPapers/CallForPapers';
 import ImportantDates from './components/ImportantDates/ImportantDates';
 import Registration from './components/Registration/Registration';
@@ -226,10 +227,12 @@ function App() {
       <Hero />
       <About />
       <Committee />
+          <KeynoteSpeakers />
+          <StudentCoordinator/>
       <CallForPapers />
       <ImportantDates />
       <Registration />
-      <KeynoteSpeakers />
+  
       {/* <Publications /> */}
       <Gallery />
       <Attractions />

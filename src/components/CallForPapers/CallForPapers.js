@@ -232,7 +232,7 @@ const CallForPapers = () => {
 
             <div className="submission-info">
               <h4>Submission Guidelines</h4>
-              <p text-align="left!important">
+              <p>
 
                 Participants are initially required to submit an
                 abstract of their proposed paper. Each abstract
@@ -244,17 +244,17 @@ const CallForPapers = () => {
                 paper for presentation and potential publication.
               </p>
               <h4>Responsibilities of Authors</h4>
-              <p text-align="left!important">
+              <p>
                 Authors must ensure that their submissions are original,
                 unpublished, and not under consideration elsewhere.
                 All data, findings, and references must be accurately represented.
                 Plagiarism, fabrication, or falsification of results is strictly prohibited
                 and will result in immediate rejection.</p>
-              <p text-align="left!important">Proper acknowledgment of sources and contributions is mandatory, and all potential conflicts of interest must be disclosed. Simultaneous submission to multiple platforms is considered unethical and will not be permitted.
+              <p>Proper acknowledgment of sources and contributions is mandatory, and all potential conflicts of interest must be disclosed. Simultaneous submission to multiple platforms is considered unethical and will not be permitted.
 
               </p>
               <h4>Plagiarism Prevention</h4>
-              <p text-align="left!important">
+              <p>
 
                 To maintain the highest academic integrity,
                 all submissions will undergo plagiarism screening
@@ -265,14 +265,14 @@ const CallForPapers = () => {
                 and may attract institutional reporting.
               </p>
               <h4>Responsibilities of the Editorial Board</h4>
-              <p text-align="left!important">
+              <p>
 
                 The Editorial Board upholds ethical and transparent
                 review processes. Decisions on submissions will be based
                 solely on the scholarly merit, originality, and relevance
                 of the work to the conference’s scope. All reviews will be
                 conducted confidentially and without bias.</p>
-              <p text-align="left!important">The Board also reserves the right to take corrective action in cases of malpractice, including rejection, retraction, or communication with the concerned author’s institution.
+              <p>The Board also reserves the right to take corrective action in cases of malpractice, including rejection, retraction, or communication with the concerned author’s institution.
               </p>
               {/* <h3 className="section-subtitle">Submission Guidelines</h3> */}
               <div className="guidelines-grid">

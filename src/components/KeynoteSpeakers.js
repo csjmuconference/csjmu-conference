@@ -28,78 +28,11 @@ const speakersData = [
     imageUrl: c15,
     isKeynote: true
 },
-
-    // {
-    //     name: 'Prof. Alvaro Rocha',
-    //     title: 'Professor of Information Systems',
-    //     affiliation: 'ISEG, University of Lisbon, Portugal',
-    //     details: 'World\'s Top 1% Scientist, according to Stanford University and Elsevier ISEM\'s Book Series Scientific Manager at Springer Nature. Chair of ITIMA, Information and Technology Management Association. Founder and Vice Chair of IEEE SMC Portugal Chapter. Invited Professor at University of Calabria, Italy. CEO of SMART-iTS Consulting, Dubai',
-    //     imageUrl: gallery1,
-    //     isKeynote: true
-    // },  
-    // {
-    //     name: 'Prof. Sergei Levashkin',
-    //     title: 'Professor',
-    //     affiliation: 'Director at Artificial Intelligence Lab, Russia',
-    //     details: 'Director at Artificial Intelligence Lab. Leading researcher in ML and AI applications.',
-    //     imageUrl: gallery2,
-    //     isKeynote: true
-    // },
-    // {
-    //     name: 'Dr. Hari Mohan Pandey',
-    //     title: 'Associate Professor (Sr. Lecturer) Data Science and Artificial Intelligence',
-    //     affiliation: 'Bournemouth University, U.K.',
-    //     details: 'Top 2% scientist (2022 World Ranking list by Stanford University). Published extensively in high-impact journals.',
-    //     imageUrl: gallery3,
-    //     isKeynote: true
-    // },
-    // {
-    //     name: 'Dr. Govind P Gupta',
-    //     title: 'NIT Raipur',
-    //     affiliation: 'Enlisted in Global ADI (Albert-Dogan) Scientific Index 2024 list.',
-    //     details: 'Enlisted in Global ADI (Albert-Dogan) Scientific Index 2024 list.',
-    //     imageUrl: gallery4,
-    //     isKeynote: true
-    // },
-    // {
-    //     name: 'Dr. Rajeev K Shakya',
-    //     title: 'Department of Electrical Engineering & Computing Engineering',
-    //     affiliation: 'Adama Science & Technology University, Adama Ethiopia',
-    //     details: 'Expert in renewable energy and power systems optimization.',
-    //     imageUrl: gallery5,
-    //     isKeynote: true
-    // },
-    // {
-    //     name: 'Dr. Vinay Kumar Kasula',
-    //     title: 'Sr. Systems Application Analyst',
-    //     affiliation: 'Visca Inc, Ashburn, Virginia, USA',
-    //     details: 'Specializes in systems security and data analytics.',
-    //     imageUrl: gallery6,
-    //     isKeynote: true
-    // },
-    // Adding non-keynote speakers from the second screenshot (Screenshot 68) for completeness
-    // {
-    //     name: 'Dr. Akhila Reddy Yadulla',
-    //     title: 'Department of Information Technology',
-    //     affiliation: 'University of the Cumberlands, Williamsburg, Kentucky, USA',
-    //     imageUrl: gallery7,
-    //     isKeynote: false
-    // },
-    // {
-    //     name: 'Er. Abhinav Tripathi',
-    //     title: 'Senior Director',
-    //     affiliation: 'Smarsh Inc, UK',
-    //     imageUrl: gallery8,
-    //     isKeynote: false
-    // },
-    // {
-    //     name: 'Er. Anupama Aggarwal',
-    //     title: 'Lead Data Scientist / Product Owner',
-    //     affiliation: 'ZeroG Lufthansa Group, Germany',
-    //     imageUrl: gallery9,
-    //     isKeynote: false
-    // },
+    
+ 
+    
 ];
+
 
 const SpeakerCard = ({ speaker }) => {
     // Determine the card class based on the type of speaker if needed, 
@@ -137,7 +70,7 @@ const KeynoteSpeakers = () => {
     const otherSpeakers = speakersData.filter(s => !s.isKeynote);
 
     return (
-        <div className="speakers-section" id="keynote-speakers">
+       <div className="speakers-section" id="keynote-speakers">
             <h2 className="speakers-title">KEYNOTE SPEAKERS</h2>
 
             <div className="speakers-grid">
@@ -158,6 +91,9 @@ const KeynoteSpeakers = () => {
                 </>
             )}
         </div>
+
+       
+
     );
 };
 

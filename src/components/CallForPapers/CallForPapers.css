@@ -44,6 +44,9 @@
   box-shadow: 0 2px 4px #1e3a8a;
 }
 
+.guideline-card li {
+text-align: justify;
+}
 .guideline-card h4 {
   color: var(--primary-color);
   margin-bottom: 1rem;
@@ -694,6 +697,7 @@
 
 .submission-info p {
   margin-bottom: 1.5rem;
+  text-align: justify;
 }
 
 .submit-button {

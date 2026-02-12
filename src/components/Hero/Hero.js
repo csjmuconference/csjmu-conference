@@ -26,6 +26,7 @@ const Hero = () => {
           <div className="hero-details">
             <p className="date">April 17-18 , 2026</p>
             <p className="location">CSJMU Campus, Kanpur, India</p>
+             <p className="location">Mode of Conference : Hybrid Mode(Online/Offline)</p>
           </div>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSf5Y1_TDAg2yxIY_ZppQeDiRODfaUQRzIhOwCTbiOA9fVeXOw/viewform?usp=header" 

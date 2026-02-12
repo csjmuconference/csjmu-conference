@@ -109,18 +109,32 @@ const Registration = () => {
           {/* ===== Payment Details Section ===== */}
           <div className="payment-info">
             <h3>
-              <AccountBalanceIcon className="icon" /> Payment Details
+              <AccountBalanceIcon className="icon"/> Registeration & Payment Process
             </h3>
             <div className="payment-details">
               <div className="bank-details">
+                {/* <p>Paper Submission & Registration Process</p> */}
                 {/* <p>Note :</p> */}
-                <ul>
-              <li><p>After submission of the full paper, authors will receive an acceptance email.</p></li>
-              <li><p>Complete the payment using the Payment Link provided below or by scanning the QR code.</p>
-                   <p>Payment Link: <a href=" https://p.ppsl.io/PYTMPS/fQicqk"> https://p.ppsl.io/PYTMPS/fQicqk</a></p></li>
-              <li><p>Registration will be confirmed only after successful payment.</p></li>
-              <li><p>If you face any issues regarding registration or payment, please contact us at conference.abvsls@csjmu.ac.in .</p></li>
-                </ul>
+                <ol>
+              <li><p><strong>Abstract Submission:</strong></p>
+                  <p>Authors are required to submit their abstract via email at conference.abvsls@csjmu.ac.in</p></li>
+              <li><p><strong>Abstract Review & Notification:</strong></p>
+                  <p>Within one week of abstract submission, authors will receive an email regarding the status of their abstract (acceptance/rejection).</p></li>
+               <li><p><strong>Full Paper Submission:</strong></p>
+                  <p> After receiving the acceptance confirmation for the abstract, authors may proceed with the full paper submission as per the conference guidelines.</p></li>
+                   <li><p><strong>Registration & Payment:</strong></p>
+                  <p>Authors must complete their registration before the deadline through the official registration link.</p></li>
+                   <li><p><strong>Payment Process:</strong></p>
+                  <p>Complete the payment using the Payment Link provided below or by scanning the QR code:
+                      Payment Link: <a href="https://p.ppsl.io/PYTMPS/fQicqk">https://p.ppsl.io/PYTMPS/fQicqk</a></p></li>
+                   <li><p><strong>Confirmation of Registration:</strong></p>
+                  <p>Registration will be confirmed only after successful payment.</p></li>
+                   <li><p><strong>Support & Queries:</strong></p>
+                  <p>If you face any issues regarding abstract submission, registration, or payment, please contact us at:
+conference.abvsls@csjmu.ac.in</p></li>
+      
+              </ol>
+              <p><strong>Note:</strong> Authors are requested to adhere strictly to the mentioned dates, deadlines, and submission guidelines.</p>
                  {/* <p><strong>Organisation:</strong> CSJM UNIVERSITY</p> 
                 <p><strong>Bank Name:</strong> State Bank of India</p>
                 <p><strong>Bank Address:</strong> CSJM UNIVERSITY, KALYANPUR, KANPUR</p>

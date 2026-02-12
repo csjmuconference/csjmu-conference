@@ -12,7 +12,7 @@ import doodhwa from '../logo/doodhwa.png';
 // Data for the attractions
 const attractionsData = [
   {
-    name: 'Agar',
+    name: 'Agra',
     imageUrl: agra,
     imageAlt: 'Taj Mahal in Agra',
     description: "The Taj Mahal in Agra, India, is a white marble mausoleum built by Emperor Shah Jahan in 1653 in memory of his wife, Mumtaz Mahal. Renowned for its beauty and symmetry, it symbolizes eternal lo... and blends Islamic, Persian, and Indian...",

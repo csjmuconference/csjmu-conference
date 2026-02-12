@@ -19,6 +19,7 @@ import c15 from '../../logo/c15.jpeg';
 import c18 from '../../logo/c18.jpeg';
 import c19 from '../../logo/c19.jpeg';
 import c20 from '../../logo/c20.jpeg';
+import c21 from '../../logo/c21.jpeg';
 const Committee = () => {
   const committees = {
     organizing: [
@@ -34,6 +35,13 @@ const Committee = () => {
         role: "Patron",
         title: "Pro Vice Chancellor, CSJM University, Kanpur",
         imageUrl: c2,
+        isKeynote: true
+      },
+       {
+        name: "Shri Ashok Kumar Tripathi",
+        role: "Patron",
+        title: "	Finance Officer, CSJM University, Kanpur",
+        imageUrl: c21,
         isKeynote: true
       },
       {
@@ -65,17 +73,17 @@ const Committee = () => {
         isKeynote: true
       },
       {
-        name: "Dr. Divyansh Shukla",
-        role: "Convenor",
-        title: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur",
-        imageUrl: c7,
-        isKeynote: true
-      },
-      {
         name: "Dr. Smriti Roy",
         role: "Convenor",
         title: "Director, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur",
         imageUrl: c8,
+        isKeynote: true
+      },
+       {
+        name: "Dr. Divyansh Shukla",
+        role: "Convenor",
+        title: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur",
+        imageUrl: c7,
         isKeynote: true
       },
       {

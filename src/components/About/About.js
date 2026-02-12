@@ -10,7 +10,7 @@ const About = () => {
           <div className="about-container">
 
             <section className="about-text">
-              <h2 className="section-title">About the CSJMU</h2>
+              <h2 className="section-title">About the Chhatrapati Shahu Ji Maharaj University</h2>
               <p>
                 Chhatrapati Shahu Ji Maharaj University Kanpur, a premier landmark of
                 higher education in Uttar Pradesh, is named after the great social
