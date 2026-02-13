@@ -40,7 +40,7 @@ const Header = () => {
             {/* <li><a href="#publication" onClick={closeMenu}>Publication</a></li> */}
             <li><a href="#gallery" onClick={closeMenu}>Gallery</a></li>
             <li><a href="#attractions" onClick={closeMenu}>Attractions</a></li>
-            {/* <li><a href="#downloads" onClick={closeMenu}>Downloads</a></li> */}
+            <li><a href="#downloads" onClick={closeMenu}>Downloads</a></li>
             <li><a href="#contact" onClick={closeMenu}>Contact Us</a></li>
           </ul>
         </nav>

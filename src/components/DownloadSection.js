@@ -2,11 +2,13 @@ import React from "react";
 import "./DownloadSection.css";
 import Test1 from '../logo/Test1.pdf';
 import Test2 from '../logo/Test2.pdf';
+import Brouchure from '../logo/Brouchure.pdf';
 
 const DownloadSection = () => {
   const downloads = [
-    { name: "PAPER PRESENTATION SCHEDULE", url: Test1 },
-    { name: "PAPER PRESENTATION TEMPLATE FORMAT", url: Test2 },
+    // { name: "PAPER PRESENTATION SCHEDULE", url: Test1 },
+    // { name: "PAPER PRESENTATION TEMPLATE FORMAT", url: Test2 },
+    { name: "DOWNLOAD BROCHURE", url: Brouchure }
   ];
 
   return (
