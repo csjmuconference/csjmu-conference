@@ -10,8 +10,12 @@
 
 .header-container {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
+  max-width: 95%; 
+  margin: 0 auto;
+  padding: 0 10px;
  
 }
 
@@ -60,6 +64,11 @@
 }
 
 @media (max-width: 768px) {
+ .header-container {
+    justify-content: flex-start; /* Isse icon wapas Left side aa jayega */
+    /* Agar icon Right mein chahiye toh 'flex-end' use karein */
+    padding: 0 20px; 
+  }
   .menu-toggle {
     display: flex;
   }
