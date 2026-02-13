@@ -44,6 +44,7 @@
 .contact-item p {
   color: var(--text-color);
   margin-bottom: 0.3rem;
+  text-align: justify;
 }
 
 .social-links {
