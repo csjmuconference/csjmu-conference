@@ -125,35 +125,75 @@ const CallForPapers = () => {
     setOpenTopicIndex(openTopicIndex === index ? null : index);
   };
 
-  const guidelines = [
-    {
-      title: "Formatting and Submission Guidelines",
-      content: [
-        " Abstracts should not exceed 200 words and must be submitted in MS Word format.",
-        "Upon acceptance of the abstract, the full paper will be required.",
-        "The full paper should be between 2,500 to 3,000 words, including references, tables, and figures.",
-        "Papers must be typed in Times New Roman, 10-point font, with 1.0 line spacing.",
-        "The total length should not exceed six pages, inclusive of all figures, graphs, and references.",
-        "APA citation style must be followed.",
-        "Each paper may have a maximum of three authors.",
-        "The submission email should include the track number and title in the subject line.",
-        "The paper should clearly mention the names and affiliations of all authors.",
-        // "E-mail for Submission: [to be updated – example: conference@csjmif.ac.in]",
-        "Mode of Conference: Hybrid (Online and On-Campus Presentations)"
+  // const guidelines = [
+  //   {
+  //     title: "Formatting and Submission Guidelines",
+  //     isCategorized: true, // Naya flag categorizing ke liye
+  //     categories: [
+  //       {
+  //         label: "Abstract Submission Guidelines",
+  //         points: [
+  //           "Word Limit: 300 to 500 words, excluding keywords.",
+  //           "Keywords: Include 5 keywords reflecting the core themes of the research.",
+  //           "Content: Must include a clear central argument, research questions, methodology, and the contribution of the paper.",
+  //           "Anonymity: No identifying information (name or affiliation) should be present in the abstract file.",
+  //           "Format: File must be in MS Word (.doc or .docx) and PDF format."
+  //         ]
+  //       },
+  //       {
+  //         label: "Full Paper Submission Guidelines",
+  //         points: [
+  //           "Word Limit: 2,500 to 3,000 words, including footnotes.",
+  //           "Title Formatting: 16-point Times New Roman, Bold, and Centered.",
+  //           "Main Text Formatting: 12-point Times New Roman, 1.5 line spacing, and justified alignment.",
+  //           "Footnote Formatting: 10-point Times New Roman with single spacing.",
+  //           "Citation Style: Strictly follow the APA style.",
+  //           "Anonymity: The main manuscript must not contain any author names or identifiers.",
+  //           "Co-authorship: A maximum of three authors is allowed per paper."
+  //         ]
+  //       }
+  //     ]
+  //   },
+  //   {
+  //     title: "Publication Opportunity",
+  //     content: [
+  //       "Selected and presented papers will be considered for publication in a peer-reviewed international journal or indexed conference proceedings. Discussions with reputed international publishers and indexing agencies are currently underway to ensure high visibility and academic impact of the selected works.",
+  //       "Final publication details will be announced upon confirmation of the publication partner.",
 
-      ]
-    },
-    {
-      title: "Publication Opportunity",
-      content: [
-        "Selected and presented papers will be considered for publication in a peer-reviewed international journal or indexed conference proceedings. Discussions with reputed international publishers and indexing agencies are currently underway to ensure high visibility and academic impact of the selected works.",
-        "Final publication details will be announced upon confirmation of the publication partner.",
+  //       "Each participant will receive a Certificate of Participation/ Presentation.",
+  //     ]
+  //   }
+  // ];
 
-        "Each accepted submission will receive a certificate of presentation/participation. In case of multiple authors, additional certificates can be provided on request for a nominal administrative fee.",
-      ]
-    }
+  // const guidelines = [
+  //   {
+  //     title: "Formatting and Submission Guidelines",
+  //     content: [
+  //       " Abstracts should not exceed 200 words and must be submitted in MS Word format.",
+  //       "Upon acceptance of the abstract, the full paper will be required.",
+  //       "The full paper should be between 2,500 to 3,000 words, including references, tables, and figures.",
+  //       "Papers must be typed in Times New Roman, 10-point font, with 1.0 line spacing.",
+  //       "The total length should not exceed six pages, inclusive of all figures, graphs, and references.",
+  //       "APA citation style must be followed.",
+  //       "Each paper may have a maximum of three authors.",
+  //       "The submission email should include the track number and title in the subject line.",
+  //       "The paper should clearly mention the names and affiliations of all authors.",
+  //       // "E-mail for Submission: [to be updated – example: conference@csjmif.ac.in]",
+  //       "Mode of Conference: Hybrid (Online and On-Campus Presentations)"
 
-  ];
+  //     ]
+  //   },
+  //   {
+  //     title: "Publication Opportunity",
+  //     content: [
+  //       "Selected and presented papers will be considered for publication in a peer-reviewed international journal or indexed conference proceedings. Discussions with reputed international publishers and indexing agencies are currently underway to ensure high visibility and academic impact of the selected works.",
+  //       "Final publication details will be announced upon confirmation of the publication partner.",
+
+  //       "Each accepted submission will receive a certificate of presentation/participation. In case of multiple authors, additional certificates can be provided on request for a nominal administrative fee.",
+  //     ]
+  //   }
+
+  // ];
   // const guidelines = [
   //   {
   //     title: "Abstract Submission",
@@ -173,10 +213,43 @@ const CallForPapers = () => {
   //   }
   // ];
 
+  const guidelines = [
+  {
+    title: "Abstract Submission Guidelines",
+    content: [
+      "Word Limit: 300 to 500 words, excluding keywords.",
+      "Keywords: Include 5 keywords reflecting the core themes of the research.",
+      "Content: Must include a clear central argument, research questions, methodology, and the contribution of the paper.",
+      "Cover Page: A separate file containing Author name(s), designation, institutional affiliation, and contact details.",
+      "Font: Times New Roman, Size 12.",
+      "Line Spacing: 1.5 spacing with justified alignment.",
+      "Margins: 1-inch (2.54 cm) margins on all sides.",
+      "Format: File must be in MS Word (.doc or .docx) and PDF format.",
+      "Anonymity: No identifying information (name or affiliation) should be present in the abstract file.",
+      "Submission: abstracts must be submitted to the official conference email at conference.abvsls@csjmu.ac.in.",
+      "Subject Line: The email subject should follow the format: Abstract Submission for International Conference 2026 | [Author Name] | [Paper Title]."
+    ]
+  },
+  {
+    title: "Full Paper Submission Guidelines",
+    content: [
+      "Word Limit: 2,500 to 3,000 words, including footnotes.",
+      "Title Formatting: 16-point Times New Roman, Bold, and Centered.",
+      "Main Text Formatting: 12-point Times New Roman, 1.5 line spacing, and justified alignment.",
+      "Footnote Formatting: 10-point Times New Roman with single spacing.",
+      "Citation Style: Strictly follow the APA style.",
+      "Anonymity: The main manuscript must not contain any author names or identifiers for blind peer review.",
+      "Originality: Submissions must be original, unpublished, and free from any AI-generated content or plagiarism.",
+      "Co-authorship: A maximum of three authors (one author and up to two co-authors) is allowed per paper.",
+      "Tables and Figures: All images or tables must be embedded within the manuscript and properly cited.",
+      "Registration: Upon receiving the acceptance confirmation for the abstract, author may proceed with the full paper submission using the registration link provided on the website."
+    ]
+  }
+];
   return (
     <section className="call-for-papers section" id="call-for-papers">
       <div className="container">
-        <h2 className="section-title">Call for Papers & Submission GuideLines</h2>
+        <h2 className="section-title">Call for Papers & Submission Guidelines</h2>
 
         <div className="cfp-content">
           <p>The International Conference on Cybersecurity Law and Governance: Building Global Resilience invites scholars, researchers, policymakers, industry experts, and practitioners to submit their original and unpublished research contributions. Submissions are expected to align with the conference themes and contribute meaningfully to advancing discourse in cybersecurity, law, and governance.
@@ -272,9 +345,26 @@ const CallForPapers = () => {
                 solely on the scholarly merit, originality, and relevance
                 of the work to the conference’s scope. All reviews will be
                 conducted confidentially and without bias.</p>
-              <p>The Board also reserves the right to take corrective action in cases of malpractice, including rejection, retraction, or communication with the concerned author’s institution.
-              </p>
+              <p>The Board also reserves the right to take corrective action 
+                in cases of malpractice, including rejection, retraction, or 
+                communication with the concerned author’s institution. </p>
+              <h4>Publication Opportutnity</h4>
+              <p>
+                  Selected and presented papers will be considered for 
+                  publication in a peer-reviewed international journal or 
+                  indexed conference proceedings. Discussions with reputed international 
+                  publishers and indexing agencies are currently underway to ensure high 
+                  visibility and academic impact of the selected works.
+                  Final publication details will be announced upon confirmation of 
+                  the publication partner.
+      <p>Each participant will receive a Certificate of Participation/ Presentation.</p>
+      </p>
+
+              
+               <h4>Formatting and Submission Guidelines</h4>
+             
               {/* <h3 className="section-subtitle">Submission Guidelines</h3> */}
+             {/* old code  */}
               <div className="guidelines-grid">
                 {guidelines.map((guideline, index) => (
                   <div className="guideline-card" key={index} >
@@ -290,6 +380,9 @@ const CallForPapers = () => {
                   </div>
                 ))}
               </div>
+
+              {/* old code end */}
+
 
               {/* <ul>
   <li>Sub-theme of the paper,</li>
