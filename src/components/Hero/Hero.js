@@ -28,11 +28,11 @@ const Hero = () => {
             <p className="location">CSJMU Campus, Kanpur, India</p>
              <p className="location">Mode of Conference : Hybrid Mode(Online/Offline)</p>
           </div>
-          <a
+          {/* <a
             href="https://docs.google.com/forms/d/e/1FAIpQLSf5Y1_TDAg2yxIY_ZppQeDiRODfaUQRzIhOwCTbiOA9fVeXOw/viewform?usp=header" 
             // onClick={handleClick}
             className="cta-button"
-          >Register Now</a>
+          >Register Now</a> */}
         </div>
       </div>
     </section>

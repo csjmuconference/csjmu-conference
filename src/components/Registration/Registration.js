@@ -4,8 +4,13 @@ import AccountBalanceIcon from '@mui/icons-material/AccountBalance';
 import QrCode2Icon from '@mui/icons-material/QrCode2';
 import qrcode1 from '../../logo/qrcode1.png';
 import qrcode2 from '../../logo/qrcode2.png';
+import RegistrationModal from './RegistrationModal';
+import  { useState } from 'react';
+import RegistrationFormModal from './RegistrationFormModal';
 
 const Registration = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isFormModalOpen, setIsFormModalOpen] = useState(false);
   const fees = [
     {
       category: "Students / Research Scholars",
@@ -97,13 +102,31 @@ const Registration = () => {
           <div className="registration-cta">
             <h3>Ready to Join?</h3>
             <p>Register now to secure your spot at the conference</p>
-            <a
+            {/* <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSf5Y1_TDAg2yxIY_ZppQeDiRODfaUQRzIhOwCTbiOA9fVeXOw/viewform?usp=header"
               className="register-button"
               // onClick={handleClick}
             >
               Register Now
-            </a>
+            </a> */}
+         <div className="cta-button-group">
+          <button className="register-button" onClick={() => setIsModalOpen(true)}>
+          Abstract Submission
+       </button>
+         <button className="register-button" onClick={() => setIsFormModalOpen(true)}>
+          Full Paper Submission
+       </button>
+       </div>
+
+       {/* 3. Component ko end mein call karein */}
+       <RegistrationModal 
+          isOpen={isModalOpen} 
+          onClose={() => setIsModalOpen(false)} 
+       />
+       <RegistrationFormModal 
+          isOpen={isFormModalOpen} 
+          onClose={() => setIsFormModalOpen(false)} 
+       />
           </div>
 
           {/* ===== Payment Details Section ===== */}
@@ -117,7 +140,7 @@ const Registration = () => {
                 {/* <p>Note :</p> */}
                 <ol>
               <li><p><strong>Abstract Submission:</strong></p>
-                  <p>Authors are required to submit their abstract via email at conference.abvsls@csjmu.ac.in</p></li>
+                  <p>Abstracts must be submitted through the online portal by using the 'Abstract Submission' button provided in the website.</p></li>
               <li><p><strong>Abstract Review & Notification:</strong></p>
                   <p>Within one week of abstract submission, authors will receive an email regarding the status of their abstract (acceptance/rejection).</p></li>
                <li><p><strong>Full Paper Submission:</strong></p>

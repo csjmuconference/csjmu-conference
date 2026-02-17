@@ -226,8 +226,8 @@ const CallForPapers = () => {
       "Margins: 1-inch (2.54 cm) margins on all sides.",
       "Format: File must be in MS Word (.doc or .docx) and PDF format.",
       "Anonymity: No identifying information (name or affiliation) should be present in the abstract file.",
-      "Submission: abstracts must be submitted to the official conference email at conference.abvsls@csjmu.ac.in.",
-      "Subject Line: The email subject should follow the format: Abstract Submission for International Conference 2026 | [Author Name] | [Paper Title]."
+      "Submission: Abstracts must be submitted through the online portal by using the 'Abstract Submission' button provided below.",
+      
     ]
   },
   {

@@ -1,0 +1,106 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(4px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-card {
+    background: #fff;
+    width: 90%;
+    max-width: 450px;
+    border-radius: 12px;
+    position: relative;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+    animation: zoomIn 0.3s ease-out;
+}
+
+@keyframes zoomIn {
+    from { opacity: 0; transform: scale(0.9); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.modal-close-btn {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    color: #fff;
+    z-index: 10;
+}
+
+.modal-header-section {
+    background: #003366; /* Match CSJMU Blue */
+    color: #fff;
+    padding: 25px;
+    text-align: center;
+    border-radius: 12px 12px 0 0;
+}
+
+.modal-header-section h3 { margin: 0; font-size: 1.4rem; color: #fff }
+.modal-header-section p { margin: 5px 0 0; font-size: 0.85rem; opacity: 0.8; }
+
+.modal-form-body {
+    padding: 25px;
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
+.form-field { margin-bottom: 15px; }
+
+.form-field label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+.form-field input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.modal-submit-button {
+    width: 100%;
+    padding: 13px;
+    background: #003366;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.modal-submit-button:hover { background: #002244; }
+.modal-submit-button:disabled { background: #ccc; cursor: not-allowed; }
+
+.status-text {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.status-text.success { color: #27ae60; }
+.status-text.error { color: #e74c3c; }
+
+/* Responsive Scrollbar */
+.modal-form-body::-webkit-scrollbar { width: 5px; }
+.modal-form-body::-webkit-scrollbar-thumb { background: #ccc; border-radius: 10px; }
