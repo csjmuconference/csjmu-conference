@@ -81,7 +81,7 @@ const RegistrationFormModal = ({ isOpen, onClose }) => {
             <div className="modal-card wide-card" onClick={(e) => e.stopPropagation()}>
                 <button className="modal-close-btn" onClick={onClose}>&times;</button>
                 <div className="modal-header-section">
-                    <h3>Full Registration Form</h3>
+                    <h3>Full Paper Submission</h3>
                     <p>International Conference on Cybersecurity Law and Governance 2026</p>
                 </div>
 
@@ -100,7 +100,7 @@ const RegistrationFormModal = ({ isOpen, onClose }) => {
                         <select name="category" required>
                             <option value="">--Select--</option>
                             <option value="Student">Student/Researcher</option>
-                            <option value="Academician">Academician/Faculty</option>
+                            <option value="Academician">Academician/Professionals</option>
                         </select>
                     </div>
                     <div className="form-field">
