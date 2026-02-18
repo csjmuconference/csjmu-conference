@@ -8,6 +8,7 @@ import vrindavan from '../logo/vrindavan.png';
 import ayodhya from '../logo/ayodhya.png';
 import sarnath from '../logo/sarnath.png';
 import doodhwa from '../logo/doodhwa.png';
+import dudhwa from '../logo/dudhwa.webp';
 
 // Data for the attractions
 const attractionsData = [
@@ -54,8 +55,8 @@ const attractionsData = [
     description: "Sarnath, near Varanasi in Uttar Pradesh, India, is a revered Buddhist site where Gautama Buddha delivered his first sermon after attaining enlightenment. It's home to the Dhamek Stu... ancient monasteries, and the Ashoka Pillar...",
   },
   {
-    name: 'Doodhwa National Park',
-    imageUrl: doodhwa,
+    name: 'Dudhwa National Park',
+    imageUrl: dudhwa,
     imageAlt: 'Wildlife in Doodhwa National Park',
     description: "Dudhwa National Park, located in Uttar Pradesh, India, is a protected area known for its rich biodiversity and dense forests. It houses endangered species like the Bengal tiger, Indi... rhinoceros, and swamp deer, as well as a...",
   },

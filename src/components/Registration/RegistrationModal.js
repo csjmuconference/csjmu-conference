@@ -5,7 +5,7 @@ const RegistrationModal = ({ isOpen, onClose }) => {
     const [loading, setLoading] = useState(false);
     const [statusMsg, setStatusMsg] = useState("");
 
-    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyNtXo8cF9Zqd9x47Kxo4aUV2DLOpaN24-hE-hkPeNy63aW2oqpH3C1yGSz1HxZCHQ0/exec";
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxVdOLxTMa5ryRKcIv9j9j0FSCg43kgHPqN0_vhqBAAumH1QjmatDyZMScZD5zqGc-w/exec";
 
     
 // Modal khulne ya band hone par message reset karne ke liye

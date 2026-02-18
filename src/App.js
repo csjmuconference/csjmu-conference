@@ -236,7 +236,7 @@ function App() {
       {/* <Publications /> */}
       <Gallery />
       <Attractions />
-      <DownloadSection />
+      {/* <DownloadSection /> */}
       <Contact />
 
       {/* Floating Scroll Buttons */}

@@ -220,7 +220,7 @@ const CallForPapers = () => {
       "Word Limit: 300 to 500 words, excluding keywords.",
       "Keywords: Include 5 keywords reflecting the core themes of the research.",
       "Content: Must include a clear central argument, research questions, methodology, and the contribution of the paper.",
-      "Cover Page: A separate file containing Author name(s), designation, institutional affiliation, and contact details.",
+      "Cover Page: A separate file containing Author name(s), designation, institutional affiliation,Theme, Sub theme and contact details.",
       "Font: Times New Roman, Size 12.",
       "Line Spacing: 1.5 spacing with justified alignment.",
       "Margins: 1-inch (2.54 cm) margins on all sides.",
@@ -233,6 +233,7 @@ const CallForPapers = () => {
   {
     title: "Full Paper Submission Guidelines",
     content: [
+      "Upon receiving the acceptance confirmation for the abstract, author may proceed with the full paper submission using the Full Paper Submission link provided on the website.",
       "Word Limit: 2,500 to 3,000 words, including footnotes.",
       "Title Formatting: 16-point Times New Roman, Bold, and Centered.",
       "Main Text Formatting: 12-point Times New Roman, 1.5 line spacing, and justified alignment.",
@@ -242,7 +243,7 @@ const CallForPapers = () => {
       "Originality: Submissions must be original, unpublished, and free from any AI-generated content or plagiarism.",
       "Co-authorship: A maximum of three authors (one author and up to two co-authors) is allowed per paper.",
       "Tables and Figures: All images or tables must be embedded within the manuscript and properly cited.",
-      "Registration: Upon receiving the acceptance confirmation for the abstract, author may proceed with the full paper submission using the registration link provided on the website."
+      "Registration: Full Paper must be submitted through the online portal by using the 'Full Paper Submission' button provided below. "
     ]
   }
 ];
