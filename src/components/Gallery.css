@@ -3,7 +3,8 @@
     padding: 20px 50px;
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: var(--light-bg);
     /* White background matching the screenshot */
 }
 

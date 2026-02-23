@@ -226,14 +226,17 @@ function App() {
       <Header />
       <Hero />
       <About />
-      <Committee />
-          <KeynoteSpeakers />
-          <StudentCoordinator/>
-      <CallForPapers />
+     <CallForPapers />
+   
+      
       <ImportantDates />
       <Registration />
   
       {/* <Publications /> */}
+              <Committee />
+             <KeynoteSpeakers /> 
+      
+        <StudentCoordinator/>
       <Gallery />
       <Attractions />
       {/* <DownloadSection /> */}
