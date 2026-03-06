@@ -5,7 +5,7 @@ const RegistrationModal = ({ isOpen, onClose }) => {
     const [loading, setLoading] = useState(false);
     const [statusMsg, setStatusMsg] = useState("");
 
-    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxVdOLxTMa5ryRKcIv9j9j0FSCg43kgHPqN0_vhqBAAumH1QjmatDyZMScZD5zqGc-w/exec";
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyVdgmO6ltNdc9_LDD6wHPhOGYHo-SEtak9T1v8JEZ87UNJc9z05FNQPXXgYxOC4cbe/exec";
 
     
 // Modal khulne ya band hone par message reset karne ke liye
@@ -42,7 +42,7 @@ React.useEffect(() => {
             formData.append("institution", form.institution.value);
             formData.append("designation", form.designation.value);
             formData.append("trackTheme", form.theme.value);
-            formData.append("subTheme", form.subtheme.value);
+            // formData.append("subTheme", form.subtheme.value);
             formData.append("fileData", base64Data);
             formData.append("fileType", file.type);
 
@@ -109,14 +109,31 @@ React.useEffect(() => {
                         <label>Designation *</label>
                         <input type="text" name="designation" placeholder="Student/Academician/Professional" required />
                     </div>
-                    <div className="form-field">
+                    {/* Dropdown for Themes - Replace old Theme/SubTheme inputs with this */}
+<div className="form-field">
+    <label>Select Abstract Track/Theme *</label>
+    <select name="theme" required className="modal-select">
+        <option value="">-- Choose a Track --</option>
+        <option value="Global & Comparative Cybersecurity Law">Global & Comparative Cybersecurity Law</option>
+        <option value="Cybercrime, Jurisdiction & Enforcement">Cybercrime, Jurisdiction & Enforcement</option>
+        <option value="Data Protection, Privacy & Digital Sovereignty">Data Protection, Privacy & Digital Sovereignty</option>
+        <option value="Freedom of Expression & Content Moderation">Freedom of Expression & Content Moderation, and Cyber Governance</option>
+        <option value="AI, Deepfakes & Emerging Technologies">AI, Deepfakes & Emerging Technologies</option>
+        <option value="Blockchain & Cryptocurrency Regulation">Blockchain, Cryptocurrency& Digital Asset Regulation</option>
+        <option value="Corporate Responsibility & Compliance">Corporate Responsibility & CyberSecurity Compliance</option>
+        <option value="Digital Forensics & Evidentiary Challenges">Digital Forensics & Evidentiary Challenges</option>
+        <option value="Public–Private Partnerships in Cyber Governance">Public–Private Partnerships in Cyber Governance</option>
+        <option value="Capacity Building & Policy Innovation">Capacity Building, Policy Innovation & Global Resilience</option>
+    </select>
+</div>
+                    {/* <div className="form-field">
                         <label>Abstract Theme *</label>
                         <input type="text" name="theme" placeholder="Theme" required />
-                    </div>
-                    <div className="form-field">
+                    </div> */}
+                    {/* <div className="form-field">
                         <label>Abstract SubTheme *</label>
                         <input type="text" name="subtheme" placeholder="SubTheme" required />
-                    </div>
+                    </div> */}
                     <div className="form-field">
                         <label>Upload Abstract (PDF/DOC) *</label>
                         <input type="file" name="abstract" accept=".pdf,.doc,.docx" required />

@@ -75,6 +75,22 @@
     box-sizing: border-box;
 }
 
+/* Select dropdown styling */
+.modal-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.modal-select:focus {
+    border-color: #b02222; /* Aapka theme color */
+    outline: none;
+}
+
 .modal-submit-button {
     width: 100%;
     padding: 13px;
