@@ -241,7 +241,7 @@ const CallForPapers = () => {
       "Citation Style: Strictly follow the APA style.",
       "Anonymity: The main manuscript must not contain any author names or identifiers for blind peer review.",
       "Originality: Submissions must be original, unpublished, and free from any AI-generated content or plagiarism.",
-      "Co-authorship: A maximum of three authors (one author and up to two co-authors) is allowed per paper.",
+      "Co-authorship: A maximum of four authors (one author and up to three co-authors) is allowed per paper.",
       "Tables and Figures: All images or tables must be embedded within the manuscript and properly cited.",
       "Registration: Full Paper must be submitted through the online portal by using the 'Full Paper Submission' button provided below. "
     ]

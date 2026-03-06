@@ -6,7 +6,7 @@ const RegistrationFormModal = ({ isOpen, onClose }) => {
     const [statusMsg, setStatusMsg] = useState("");
     const [authorCount, setAuthorCount] = useState("1"); // Dynamic author count
 
-    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyHZRbtKPaiO0E_SOKZ9eExXwy31iHRZXYDV43lOiNnrhtT2kv-wsH83brsw9IlpqIV/exec";
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycby4VfLLW-Oh65pCbrkGcDUJ2wLzd-7ayYHZAayrowW9_xoXmjbbjLV_WTzSd3h6iP-8gg/exec";
 
     useEffect(() => {
         if (!isOpen) {
@@ -52,6 +52,7 @@ const handleFormSubmit = async (e) => {
             // Basic & Payment Info
             formData.append("mode", form.mode.value);
             formData.append("category", form.category.value);
+            formData.append("trackTheme", form.trackTheme.value);
             formData.append("utrNo", form.utrNo.value);
             formData.append("fileData", paymentBase64); // Payment File
             formData.append("fileType", paymentFile.type);
@@ -71,10 +72,15 @@ const handleFormSubmit = async (e) => {
             formData.append("emailCo1", authorCount >= 2 ? form.emailCo1.value : "N/A");
             formData.append("phoneCo1", authorCount >= 2 ? form.phoneCo1.value : "N/A");
             
-            formData.append("nameCo2", authorCount == 3 ? form.nameCo2.value : "N/A");
-            formData.append("instCo2", authorCount == 3 ? form.instCo2.value : "N/A");
-            formData.append("emailCo2", authorCount == 3 ? form.emailCo2.value : "N/A");
-            formData.append("phoneCo2", authorCount == 3 ? form.phoneCo2.value : "N/A");
+            formData.append("nameCo2", authorCount >= 3 ? form.nameCo2.value : "N/A");
+            formData.append("instCo2", authorCount >= 3 ? form.instCo2.value : "N/A");
+            formData.append("emailCo2", authorCount >= 3 ? form.emailCo2.value : "N/A");
+            formData.append("phoneCo2", authorCount >= 3 ? form.phoneCo2.value : "N/A");
+
+            formData.append("nameCo3", authorCount == 4 ? form.nameCo3.value : "N/A");
+            formData.append("instCo3", authorCount == 4 ? form.instCo3.value : "N/A");
+            formData.append("emailCo3", authorCount == 4 ? form.emailCo3.value : "N/A");
+            formData.append("phoneCo3", authorCount == 4 ? form.phoneCo3.value : "N/A");
 
             const response = await fetch(SCRIPT_URL, { method: 'POST', body: formData });
             const result = await response.text();
@@ -241,6 +247,7 @@ const handleFormSubmit = async (e) => {
             <option value="">--Select--</option>
             <option value="Student">Student/Researcher</option>
             <option value="Academician">Academician/Professionals</option>
+            <option value="International Delegates">International Delegates</option>
         </select>
     </div>
 
@@ -250,8 +257,26 @@ const handleFormSubmit = async (e) => {
             <option value="1">1 Author</option>
             <option value="2">2 Authors</option>
             <option value="3">3 Authors</option>
+            <option value="4">4 Authors</option>
         </select>
     </div>
+
+    <div className="form-field">
+    <label>Select Track/Theme *</label>
+    <select name="trackTheme" required className="modal-select">
+        <option value="">-- Choose a Track --</option>
+        <option value="Global & Comparative Cybersecurity Law">Global & Comparative Cybersecurity Law</option>
+        <option value="Cybercrime, Jurisdiction & Enforcement">Cybercrime, Jurisdiction & Enforcement</option>
+        <option value="Data Protection, Privacy & Digital Sovereignty">Data Protection, Privacy & Digital Sovereignty</option>
+        <option value="Freedom of Expression & Content Moderation">Freedom of Expression & Content Moderation, and Cyber Governance</option>
+        <option value="AI, Deepfakes & Emerging Technologies">AI, Deepfakes & Emerging Technologies</option>
+        <option value="Blockchain & Cryptocurrency Regulation">Blockchain, Cryptocurrency& Digital Asset Regulation</option>
+        <option value="Corporate Responsibility & Compliance">Corporate Responsibility & CyberSecurity Compliance</option>
+        <option value="Digital Forensics & Evidentiary Challenges">Digital Forensics & Evidentiary Challenges</option>
+        <option value="Public–Private Partnerships in Cyber Governance">Public–Private Partnerships in Cyber Governance</option>
+        <option value="Capacity Building & Policy Innovation">Capacity Building, Policy Innovation & Global Resilience</option>
+    </select>
+</div>
 
     {/* Main Author Section */}
     <h4 className="full-width separator">Main Author Details</h4>
@@ -303,7 +328,7 @@ const handleFormSubmit = async (e) => {
     )}
 
     {/* Co-Author 2 */}
-    {authorCount == 3 && (
+    {authorCount >= 3 && (
         <>
             <h4 className="full-width separator">Co-Author 2 Details</h4>
             <div className="form-field">
@@ -325,6 +350,17 @@ const handleFormSubmit = async (e) => {
            
         </>
     )}
+
+{/* Co-Author 3 */}
+    {authorCount == 4 && (
+    <>
+        <h4 className="full-width separator">Co-Author 3 Details</h4>
+        <div className="form-field"><label>Full Name *</label><input type="text" name="nameCo3" placeholder="Enter Name" required /></div>
+        <div className="form-field"><label>Email *</label><input type="email" name="emailCo3" placeholder="example@gmail.com" required /></div>
+        <div className="form-field"><label>Phone *</label><input type="text" name="phoneCo3" placeholder="10-digit no." required /></div>
+        <div className="form-field"><label>Institution *</label><input type="text" name="instCo3" placeholder="University Name" required /></div>
+    </>
+)}
 
     {/* Upload Section */}
     <h4 className="full-width separator">Document Submission (Max 15MB)</h4>
