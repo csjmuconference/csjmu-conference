@@ -7,10 +7,12 @@ import qrcode2 from '../../logo/qrcode2.png';
 import RegistrationModal from './RegistrationModal';
 import  { useState } from 'react';
 import RegistrationFormModal from './RegistrationFormModal';
+import Registrationonly from './Registrationonly';
 
 const Registration = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isFormModalOpen, setIsFormModalOpen] = useState(false);
+  const [isRegistrationOpen, setIsRegistrationOpen] = useState(false);
   const fees = [
     {
       category: "Students / Research Scholars",
@@ -113,6 +115,9 @@ const Registration = () => {
           <button className="register-button" onClick={() => setIsModalOpen(true)}>
           Abstract Submission
        </button>
+            <button className="register-button" onClick={() => setIsRegistrationOpen(true)}>
+          Registration
+       </button>
          <button className="register-button" onClick={() => setIsFormModalOpen(true)}>
           Full Paper Submission
        </button>
@@ -122,6 +127,10 @@ const Registration = () => {
        <RegistrationModal 
           isOpen={isModalOpen} 
           onClose={() => setIsModalOpen(false)} 
+       />
+        <Registrationonly 
+          isOpen={isRegistrationOpen} 
+          onClose={() => setIsRegistrationOpen(false)} 
        />
        <RegistrationFormModal 
           isOpen={isFormModalOpen} 

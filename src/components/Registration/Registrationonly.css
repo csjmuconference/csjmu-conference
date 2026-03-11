@@ -1,0 +1,61 @@
+.wide-card {
+    max-width: 800px !important; /* Thoda wide card */
+}
+
+.registration-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Do columns */
+    gap: 15px;
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
+/* Dropdown (select) ko bada aur sundar banane ke liye */
+.form-field select {
+    width: 100%;
+    padding: 12px; /* Isse height badh jayegi */
+    font-size: 16px; /* Text thoda bada dikhega */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+/* Jab dropdown par click karein */
+.form-field select:focus {
+    border-color: #003366;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 51, 102, 0.2);
+}
+
+/* Label aur dropdown ke beech space ke liye */
+.form-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-field input, .form-field select {
+    padding: 12px;
+    /* baki properties... */
+}
+
+.full-width { grid-column: span 2; }
+
+.full-width-hr {
+    grid-column: span 2;
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 10px 0;
+}
+
+h4 { margin: 5px 0; color: #003366; }
+
+@media (max-width: 650px) {
+    .registration-grid { grid-template-columns: 1fr; }
+    .full-width { grid-column: span 1; }
+    .full-width-hr { grid-column: span 1; }
+}
