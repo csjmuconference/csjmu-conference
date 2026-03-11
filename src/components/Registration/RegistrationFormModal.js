@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './RegistrationFormModal.css';
+import qrcode2 from '../../logo/qrcode2.png';
 
 const RegistrationFormModal = ({ isOpen, onClose }) => {
     const [loading, setLoading] = useState(false);
@@ -53,6 +54,7 @@ const handleFormSubmit = async (e) => {
             formData.append("mode", form.mode.value);
             formData.append("category", form.category.value);
             formData.append("trackTheme", form.trackTheme.value);
+            formData.append("paperTitle", form.paperTitle.value);
             formData.append("utrNo", form.utrNo.value);
             formData.append("fileData", paymentBase64); // Payment File
             formData.append("fileType", paymentFile.type);
@@ -277,7 +279,16 @@ const handleFormSubmit = async (e) => {
         <option value="Capacity Building & Policy Innovation">Capacity Building, Policy Innovation & Global Resilience</option>
     </select>
 </div>
-
+<div className="form-field full-width">
+    <label>Paper Title *</label>
+    <input 
+        type="text" 
+        name="paperTitle" 
+        placeholder="Paper Title" 
+        required 
+        className="modal-input"
+    />
+</div>
     {/* Main Author Section */}
     <h4 className="full-width separator">Main Author Details</h4>
     
@@ -365,6 +376,36 @@ const handleFormSubmit = async (e) => {
     {/* Upload Section */}
     <h4 className="full-width separator">Document Submission (Max 15MB)</h4>
     
+     {/* QR Code Section  */}
+<div className="full-width qr-payment-container" style={{
+    textAlign: 'center', 
+    padding: '15px', 
+    backgroundColor: '#f9f9f9', 
+    border: '1px dashed #ccc', 
+    borderRadius: '8px',
+    marginBottom: '15px'
+}}>
+    <p style={{ fontWeight: 'bold', marginBottom: '10px', color: '#333' }}>
+        Scan to Pay
+    </p>
+    
+    {/* QR Image  */}
+    <img 
+        src={qrcode2} 
+        alt="Payment QR Code" 
+        style={{ 
+            width: '180px', 
+            height: '180px', 
+            borderRadius: '5px',
+            boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
+        }} 
+    />
+    
+    <p style={{ fontSize: '12px', marginTop: '10px', color: '#666' }}>
+        Accepting all UPI Apps (GPay, PhonePe, Paytm)
+    </p>
+</div>
+
     <div className="form-field">
         <label>Transaction/UTR Number *</label>
         <input type="text" name="utrNo" placeholder="Enter UTR Number" required />

@@ -42,7 +42,7 @@ React.useEffect(() => {
             formData.append("institution", form.institution.value);
             formData.append("designation", form.designation.value);
             formData.append("trackTheme", form.theme.value);
-            // formData.append("subTheme", form.subtheme.value);
+            formData.append("papertitle", form.papertitle.value);
             formData.append("fileData", base64Data);
             formData.append("fileType", file.type);
 
@@ -130,10 +130,10 @@ React.useEffect(() => {
                         <label>Abstract Theme *</label>
                         <input type="text" name="theme" placeholder="Theme" required />
                     </div> */}
-                    {/* <div className="form-field">
-                        <label>Abstract SubTheme *</label>
-                        <input type="text" name="subtheme" placeholder="SubTheme" required />
-                    </div> */}
+                    <div className="form-field">
+                        <label>Paper Title *</label>
+                        <input type="text" name="papertitle" placeholder="Paper Title" required />
+                    </div>
                     <div className="form-field">
                         <label>Upload Abstract (PDF/DOC) *</label>
                         <input type="file" name="abstract" accept=".pdf,.doc,.docx" required />
