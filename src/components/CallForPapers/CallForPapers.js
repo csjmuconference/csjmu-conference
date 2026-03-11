@@ -220,7 +220,7 @@ const CallForPapers = () => {
       "Word Limit: 300 to 500 words, excluding keywords.",
       "Keywords: Include 5 keywords reflecting the core themes of the research.",
       "Content: Must include a clear central argument, research questions, methodology, and the contribution of the paper.",
-      "Cover Page: A separate file containing Author name(s), designation, institutional affiliation,Theme, Sub theme and contact details.",
+      "Cover Page: A separate file containing Author name(s), designation, institutional affiliation,Theme, Sub theme , Paper Title and contact details.",
       "Font: Times New Roman, Size 12.",
       "Line Spacing: 1.5 spacing with justified alignment.",
       "Margins: 1-inch (2.54 cm) margins on all sides.",
