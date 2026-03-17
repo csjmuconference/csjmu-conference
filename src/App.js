@@ -233,9 +233,8 @@ function App() {
       <Registration />
   
       {/* <Publications /> */}
+               <KeynoteSpeakers /> 
               <Committee />
-             <KeynoteSpeakers /> 
-      
         <StudentCoordinator/>
       <Gallery />
       <Attractions />
