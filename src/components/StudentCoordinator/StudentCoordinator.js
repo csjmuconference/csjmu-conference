@@ -33,7 +33,7 @@ const StudentCoordinator = () => {
   };
 
   return (
-    <section className="committee section" >
+    <section className="student section" >
       <div className="container">
         {/* <h2 className="section-title">Conference Committee</h2> */}
 

@@ -1,5 +1,6 @@
 .call-for-papers {
   background-color: var(--light-bg);
+  padding: 10px 0 60px 0 !important;
 }
 
 .cfp-content {

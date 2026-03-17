@@ -1,5 +1,6 @@
 .about {
   background-color: var(--light-bg);
+  padding: 60px 0 10px 0 !important;
 /* background-color:white; */
 }
 

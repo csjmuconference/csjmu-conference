@@ -1,5 +1,6 @@
 .registration {
   background-color: var(--light-bg);
+  padding: 60px 0 15px 0 !important;
 }
 
 .registration-content {

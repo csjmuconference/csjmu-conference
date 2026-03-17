@@ -1,9 +1,12 @@
-.committee {
+.student {
   background-color: var(--white);
+   padding: 10px 0 60px 0 !important ;
+ 
 }
 
 .committee-section {
   margin-bottom: 4rem;
+  
 }
 
 .committee-section:last-child {
