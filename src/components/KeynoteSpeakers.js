@@ -16,6 +16,7 @@ import gallery13 from '../logo/gallery13.jpeg';
 import gallery14 from '../logo/gallery14.jpeg';
 import gallery15 from '../logo/gallery15.jpeg';
 import c15 from '../logo/c15.jpeg';
+import c22 from '../logo/c22.jpeg';
 
 
 // Placeholder data for speakers (based on the latest screenshots)
@@ -26,6 +27,14 @@ const speakersData = [
     affiliation: 'Vidhi Centre for Legal Policy, New Delhi, India',
     details: 'Lead at Charkha, Vidhi Centre for Legal Policy. DPhil in Law (University of Oxford) specialising in Public Interest Litigation and Constitutional law.',
     imageUrl: c15,
+    isKeynote: true
+},
+  {
+    name: 'James Reilly',
+    title: '​Open Source Advocate & IT Consultant',
+    affiliation: 'FOSS United and AlmaLinux',
+    details: 'An open-source advocate and consultant actively involved with global FOSS communities including AlmaLinux and FOSS United',
+    imageUrl: c22,
     isKeynote: true
 },
     

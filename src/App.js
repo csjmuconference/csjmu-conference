@@ -178,6 +178,7 @@ import Gallery from './components/Gallery';
 import DownloadSection from './components/DownloadSection';
 import KeynoteSpeakers from './components/KeynoteSpeakers';
 import Publications from './components/Publications';
+import SessionChair from './components/SessionChair/SessionChair';
 
 // Import MUI Icons
 import ArrowUpwardIcon from '@mui/icons-material/ArrowUpward';
@@ -234,6 +235,7 @@ function App() {
   
       {/* <Publications /> */}
                <KeynoteSpeakers /> 
+               <SessionChair/>
               <Committee />
         <StudentCoordinator/>
       <Gallery />

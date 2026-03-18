@@ -352,13 +352,15 @@ const CallForPapers = () => {
                 communication with the concerned author’s institution. </p>
               <h4>Publication Opportutnity</h4>
               <p>
-                  Selected and presented papers will be considered for 
+                  {/* Selected and presented papers will be considered for 
                   publication in a peer-reviewed international journal or 
                   indexed conference proceedings. Discussions with reputed international 
                   publishers and indexing agencies are currently underway to ensure high 
                   visibility and academic impact of the selected works.
                   Final publication details will be announced upon confirmation of 
-                  the publication partner.
+                  the publication partner. */}
+                  The selected papers will be given an opportunity of publication 
+                  in an edited book bearing ISBN.
       <p>Each participant will receive a Certificate of Participation/ Presentation.</p>
       </p>
 
