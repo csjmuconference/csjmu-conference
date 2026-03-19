@@ -17,6 +17,7 @@ import gallery14 from '../logo/gallery14.jpeg';
 import gallery15 from '../logo/gallery15.jpeg';
 import c15 from '../logo/c15.jpeg';
 import c22 from '../logo/c22.jpeg';
+import c29 from '../logo/c29.jpeg';
 
 
 // Placeholder data for speakers (based on the latest screenshots)
@@ -37,7 +38,14 @@ const speakersData = [
     imageUrl: c22,
     isKeynote: true
 },
-    
+     {
+    name: 'Dr. Anand Handa',
+    title: 'Chief Strategy Officer (CSO)',
+    affiliation: 'C3iHub, IIT Kanpur',
+    details: 'Chief Strategy Officer at C3iHub, IIT Kanpur, with expertise in malware analysis, memory forensics, intrusion detection, and DevSecOps.Ph.D. researcher with 25+ publications and strong experience in cybersecurity projects and professional training.',
+    imageUrl: c29,
+    isKeynote: true
+},
  
     
 ];

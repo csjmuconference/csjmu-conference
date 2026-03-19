@@ -11,20 +11,35 @@ import c28 from '../../logo/c28.jpeg';
 const SessionChair = () => {
   const committees = {
     organizing: [
-      {
-        name: "Dr. Navtika Nautiyal",
-        role: "Assistant Professor",
-        title: "National Forensic Sciences University, Gandhinagar",
-        imageUrl: c23,
+       {
+        name: "Dr. Abhilasha Khare",
+        role: "Assistant Professor of Law",
+        title: "Symbiosis Law School, Nagpur",
+        imageUrl: c28,
         isKeynote: true
       },
-      {
-        name: "Dr. Bhavna MAHADEW",
-        role: "Lecturer",
-        title: "University of Technology, Mauritius",
+        {
+        name: "Dr. Anumeet Kaur",
+        role: "Assistant Professor of Law",
+        title: "Karnavati University",
+        imageUrl: c26,
+        isKeynote: true
+      },
+        {
+        name: "Dr. Bhavna Mahadew",
+        role: "Lecturer of Law",
+        title: "Department of Business Management and Law, University of Technology, Mauritius",
         imageUrl: c24,
         isKeynote: true
       },
+      {
+        name: "Dr. Navtika Nautiyal",
+        role: "Assistant Professor",
+        title: "Department of Law, Forensic Justice and Policy Studies,National Forensic Sciences University, Gandhinagar",
+        imageUrl: c23,
+        isKeynote: true
+      },
+    
        {
         name: "Mr. Rahul Sangwan",
         role: "Senior Associate",
@@ -32,20 +47,8 @@ const SessionChair = () => {
         imageUrl: c25,
         isKeynote: true
       },
-      {
-        name: "Dr. Anumeet Kaur",
-        role: "Assistant Professor",
-        title: "Karnavati University",
-        imageUrl: c26,
-        isKeynote: true
-      },
-      {
-        name: "Dr Abhilasha Khare",
-        role: "Assistant Professor",
-        title: "Symbiosis Law School, Nagpur",
-        imageUrl: c28,
-        isKeynote: true
-      },
+    
+     
       
      
     ]
@@ -60,7 +63,7 @@ const SessionChair = () => {
           {/* <h3 className="section-subtitle">Steering Committee</h3> */}
           <div className="session-grid">
             {committees.organizing.map((member, index) => (
-              <div className="committee-card" key={index}>
+              <div className="session-card" key={index}>
                 <div className="speaker-image-container">
                   <img
                     src={member.imageUrl}

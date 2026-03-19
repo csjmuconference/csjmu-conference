@@ -12,21 +12,31 @@
 }
 
 .session-grid {
-  /* display: grid;
+  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 2rem;
-  margin-top: 2rem; */
-  display: grid;
-  /* Change 'auto-fit' to 'auto-fill' if you want items to maintain their size */
-  grid-template-columns: repeat(auto-fit, minmax(250px, 300px)); 
-  gap: 2rem;
   margin-top: 2rem;
+
+  /* display: flex;          Change from grid to flex */
+  /* flex-wrap: wrap;        Allow items to wrap to the next line */
+  /* justify-content: center; This will center the items on every row */
+  /* gap: 2rem;
+  margin-top: 2rem; */
+
+  /* display: grid; */
+  /* Change 'auto-fit' to 'auto-fill' if you want items to maintain their size */
+  /* grid-template-columns: repeat(auto-fit, minmax(250px, 300px));  */
+  /* gap: 2rem; */
+  /* margin-top: 2rem; */
   /* This centers the entire grid of cards */
-  justify-content: center;
+  /* justify-content: center; */
   
 }
 
-.committee-card {
+.session-card {
+  /* flex: 0 1 300px; */
+  /* flex: 0 1 calc(25% - 2rem); 
+  min-width: 250px; */
   background-color: var(--light-bg);
   padding: 2rem;
   border-radius: 8px;

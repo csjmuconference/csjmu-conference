@@ -359,8 +359,11 @@ const CallForPapers = () => {
                   visibility and academic impact of the selected works.
                   Final publication details will be announced upon confirmation of 
                   the publication partner. */}
-                  The selected papers will be given an opportunity of publication 
-                  in an edited book bearing ISBN.
+                  Selected papers will be given an opportunity of publication in an 
+                  edited book bearing ISBN. Discussions are also underway with reputed 
+                  international journals,  publishers and indexing agencies to ensure high 
+                  visibility and academic impact of selected works. Final publication details 
+                  will be announced upon confirmation of the publication partner.
       <p>Each participant will receive a Certificate of Participation/ Presentation.</p>
       </p>
 
