@@ -23,7 +23,7 @@ import c29 from '../logo/c29.jpeg';
 // Placeholder data for speakers (based on the latest screenshots)
 const speakersData = [
     {
-    name: 'Swapnil Tripathi',
+    name: 'Dr. Swapnil Tripathi',
     title: 'Lead – Charkha (Centre for Constitutional Law) | Advocate',
     affiliation: 'Vidhi Centre for Legal Policy, New Delhi, India',
     details: 'Lead at Charkha, Vidhi Centre for Legal Policy. DPhil in Law (University of Oxford) specialising in Public Interest Litigation and Constitutional law.',
@@ -31,7 +31,7 @@ const speakersData = [
     isKeynote: true
 },
   {
-    name: 'James Reilly',
+    name: 'Mr. James Reilly',
     title: '​Open Source Advocate & IT Consultant',
     affiliation: 'FOSS United and AlmaLinux',
     details: 'An open-source advocate and consultant actively involved with global FOSS communities including AlmaLinux and FOSS United',
