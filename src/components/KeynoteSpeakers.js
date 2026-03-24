@@ -18,6 +18,8 @@ import gallery15 from '../logo/gallery15.jpeg';
 import c15 from '../logo/c15.jpeg';
 import c22 from '../logo/c22.jpeg';
 import c29 from '../logo/c29.jpeg';
+import c30 from '../logo/c30.jpeg';
+import c31 from '../logo/c31.jpeg';
 
 
 // Placeholder data for speakers (based on the latest screenshots)
@@ -46,7 +48,22 @@ const speakersData = [
     imageUrl: c29,
     isKeynote: true
 },
- 
+ {
+    name: 'Dr. Bishwa Dash',
+    title: 'Associate Professor',
+    affiliation: 'Department of Law, Forensic Justice and Policy Studies, National Forensic Sciences University, Bhubaneswar Campus',
+    details: 'Ph.D. in Law from WBNUJS Kolkata with 7+ years of teaching experience in Cyber, Constitutional, and Environmental Laws, and publications in reputed journals. Has been working as an Editor of the Nirma University Law Journal, contributing to legal research, academic administration, and academic events.',
+    imageUrl: c30,
+    isKeynote: true
+},
+ {
+    name: 'Dr. Atul Kumar Pandey',
+    title: 'Professor of Cyber Law and Chairperson',
+    affiliation: 'Rajiv Gandhi National Cyber Law Centre, NLIU, Bhopal',
+    details: 'Professor of Cyber Law and Chairperson of the Rajiv Gandhi National Cyber Law Centre at National Law Institute University, Bhopal, with extensive academic experience in cyber law education and research.Ph.D. scholar with over 18 years of teaching experience across leading law universities, specializing in cyber law, information security, and technology law.',
+    imageUrl: c31,
+    isKeynote: true
+},
     
 ];
 

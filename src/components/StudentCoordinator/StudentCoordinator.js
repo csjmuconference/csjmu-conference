@@ -25,6 +25,10 @@ const StudentCoordinator = () => {
       {
         name: "Harsh Tiwari",
         institution: "Student (LLB.(H)), Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur"
+      },
+       {
+        name: "Ayush Panchal",
+        institution: "Student (BBA.LLB.(H)), Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur"
       }
     ],
 

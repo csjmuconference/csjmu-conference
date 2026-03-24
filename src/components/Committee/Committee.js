@@ -163,6 +163,7 @@ const Committee = () => {
       { name: "Dr. Vishnu Pati Tripathi", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Mrs. Akriti Daksh", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
       { name: "Ms. Pia Shukla", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
+      { name: "Ms. Sharwani Pandey", institution: "Assistant Professor, Atal Bihari Vajpayee School of Legal Studies, CSJM University, Kanpur" },
    
     ]
 
