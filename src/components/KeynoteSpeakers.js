@@ -24,28 +24,21 @@ import c31 from '../logo/c31.jpeg';
 
 // Placeholder data for speakers (based on the latest screenshots)
 const speakersData = [
-    {
-    name: 'Dr. Swapnil Tripathi',
-    title: 'Lead – Charkha (Centre for Constitutional Law) | Advocate',
-    affiliation: 'Vidhi Centre for Legal Policy, New Delhi, India',
-    details: 'Lead at Charkha, Vidhi Centre for Legal Policy. DPhil in Law (University of Oxford) specialising in Public Interest Litigation and Constitutional law.',
-    imageUrl: c15,
-    isKeynote: true
-},
-  {
-    name: 'Mr. James Reilly',
-    title: '​Open Source Advocate & IT Consultant',
-    affiliation: 'FOSS United and AlmaLinux',
-    details: 'An open-source advocate and consultant actively involved with global FOSS communities including AlmaLinux and FOSS United',
-    imageUrl: c22,
-    isKeynote: true
-},
      {
     name: 'Dr. Anand Handa',
     title: 'Chief Strategy Officer (CSO)',
     affiliation: 'C3iHub, IIT Kanpur',
     details: 'Chief Strategy Officer at C3iHub, IIT Kanpur, with expertise in malware analysis, memory forensics, intrusion detection, and DevSecOps.Ph.D. researcher with 25+ publications and strong experience in cybersecurity projects and professional training.',
     imageUrl: c29,
+    isKeynote: true
+},
+
+ {
+    name: 'Dr. Atul Kumar Pandey',
+    title: 'Professor of Cyber Law and Chairperson',
+    affiliation: 'Rajiv Gandhi National Cyber Law Centre, NLIU, Bhopal',
+    details: 'Professor of Cyber Law and Chairperson of the Rajiv Gandhi National Cyber Law Centre at National Law Institute University, Bhopal, with extensive academic experience in cyber law education and research.Ph.D. scholar with over 18 years of teaching experience across leading law universities, specializing in cyber law, information security, and technology law.',
+    imageUrl: c31,
     isKeynote: true
 },
  {
@@ -57,14 +50,21 @@ const speakersData = [
     isKeynote: true
 },
  {
-    name: 'Dr. Atul Kumar Pandey',
-    title: 'Professor of Cyber Law and Chairperson',
-    affiliation: 'Rajiv Gandhi National Cyber Law Centre, NLIU, Bhopal',
-    details: 'Professor of Cyber Law and Chairperson of the Rajiv Gandhi National Cyber Law Centre at National Law Institute University, Bhopal, with extensive academic experience in cyber law education and research.Ph.D. scholar with over 18 years of teaching experience across leading law universities, specializing in cyber law, information security, and technology law.',
-    imageUrl: c31,
+    name: 'Mr. James Reilly',
+    title: '​Open Source Advocate & IT Consultant',
+    affiliation: 'FOSS United and AlmaLinux',
+    details: 'An open-source advocate and consultant actively involved with global FOSS communities including AlmaLinux and FOSS United',
+    imageUrl: c22,
     isKeynote: true
 },
-    
+    {
+    name: 'Dr. Swapnil Tripathi',
+    title: 'Lead – Charkha (Centre for Constitutional Law) | Advocate',
+    affiliation: 'Vidhi Centre for Legal Policy, New Delhi, India',
+    details: 'Lead at Charkha, Vidhi Centre for Legal Policy. DPhil in Law (University of Oxford) specialising in Public Interest Litigation and Constitutional law.',
+    imageUrl: c15,
+    isKeynote: true
+} 
 ];
 
 
