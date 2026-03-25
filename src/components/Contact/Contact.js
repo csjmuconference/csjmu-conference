@@ -28,7 +28,7 @@ const Contact = () => {
                   {/* <p>(Student Coordinator)</p> */}
                   <p>&nbsp;Khushi Singh: +91-9839686849</p>
                   {/* <p>(Student Coordinator)</p> */}
-                  {/* <p>&nbsp;Pragati Awasthi: +91-6389052337</p> */}
+                  <p>&nbsp;Pragati Awasthi: +91-6389052337</p>
                   {/* <p>(Student Coordinator)</p> */}
                  
                 </div>

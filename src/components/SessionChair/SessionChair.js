@@ -7,6 +7,7 @@ import c25 from '../../logo/c25.jpeg';
 import c26 from '../../logo/c26.jpeg';
 import c27 from '../../logo/c27.jpeg';
 import c28 from '../../logo/c28.jpeg';
+import c32 from '../../logo/c32.jpg';
 
 const SessionChair = () => {
   const committees = {
@@ -39,6 +40,13 @@ const SessionChair = () => {
         imageUrl: c23,
         isKeynote: true
       },
+      {
+        name: "Dr. Niyati Pandey",
+        role: "Assistant Professor of Law",
+        title: "Gujarat National Law University",
+        imageUrl: c32,
+        isKeynote: true
+      },
     
        {
         name: "Mr. Rahul Sangwan",
@@ -48,7 +56,6 @@ const SessionChair = () => {
         isKeynote: true
       },
     
-     
       
      
     ]
