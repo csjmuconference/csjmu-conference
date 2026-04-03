@@ -20,6 +20,7 @@ import c22 from '../logo/c22.jpeg';
 import c29 from '../logo/c29.jpeg';
 import c30 from '../logo/c30.jpeg';
 import c31 from '../logo/c31.jpeg';
+import c35 from '../logo/c35.jpeg';
 
 
 // Placeholder data for speakers (based on the latest screenshots)
@@ -55,6 +56,14 @@ const speakersData = [
     affiliation: 'FOSS United and AlmaLinux',
     details: 'An open-source advocate and consultant actively involved with global FOSS communities including AlmaLinux and FOSS United',
     imageUrl: c22,
+    isKeynote: true
+},
+  {
+    name: 'Mr. Prasenjit Gautam',
+    title: 'Co-Founder',
+    affiliation: 'Vallum Research & C2AIR',
+    details: ' An independent cybersecurity researcher and public speaker committed towards free education advocacy and fostering technological research.Guest faculty UP Police Headquarters (Technical Services)',
+    imageUrl: c35,
     isKeynote: true
 },
     {

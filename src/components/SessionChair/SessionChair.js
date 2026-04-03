@@ -8,6 +8,8 @@ import c26 from '../../logo/c26.jpeg';
 import c27 from '../../logo/c27.jpeg';
 import c28 from '../../logo/c28.jpeg';
 import c32 from '../../logo/c32.jpg';
+import c33 from '../../logo/c33.jpeg';
+import c34 from '../../logo/c34.jpeg';
 
 const SessionChair = () => {
   const committees = {
@@ -45,6 +47,20 @@ const SessionChair = () => {
         role: "Assistant Professor of Law",
         title: "Gujarat National Law University",
         imageUrl: c32,
+        isKeynote: true
+      },
+        {
+        name: "Dr. Neelesh Shukla",
+        role: "Assistant Professor of Law",
+        title: "Nirma University, Ahmedabad",
+        imageUrl: c33,
+        isKeynote: true
+      },
+       {
+        name: "Dr Prasenjit Kundu",
+        role: "Assistant Professor of Law",
+        title: "Dr. Ram Manohar Lohiya National Law University,Lucknow",
+        imageUrl: c34,
         isKeynote: true
       },
     
