@@ -57,7 +57,7 @@ const SessionChair = () => {
         isKeynote: true
       },
        {
-        name: "Dr Prasenjit Kundu",
+        name: "Dr. Prasenjit Kundu",
         role: "Assistant Professor of Law",
         title: "Dr. Ram Manohar Lohiya National Law University,Lucknow",
         imageUrl: c34,
@@ -65,7 +65,7 @@ const SessionChair = () => {
       },
     
        {
-        name: "Mr. Rahul Sangwan",
+        name: "Adv. Rahul Sangwan",
         role: "Senior Associate",
         title: "Khaitan & Co.",
         imageUrl: c25,

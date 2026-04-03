@@ -21,6 +21,8 @@ import c29 from '../logo/c29.jpeg';
 import c30 from '../logo/c30.jpeg';
 import c31 from '../logo/c31.jpeg';
 import c35 from '../logo/c35.jpeg';
+import c36 from '../logo/c36.jpeg';
+import c37 from '../logo/c37.jpeg';
 
 
 // Placeholder data for speakers (based on the latest screenshots)
@@ -66,6 +68,14 @@ const speakersData = [
     imageUrl: c35,
     isKeynote: true
 },
+//  {
+//     name: 'Ms. Sakshi Srivastava',
+//     title: 'Assistant Professor',
+//     affiliation: ' Jindal Global Law School, Sonipat',
+//     details: 'A legal professional practicing before the Supreme Court of India and the Rajasthan High Court, specializing in dispute resolution, arbitration, constitutional, criminal, and taxation law, also serves as a Research Assistant at Columbia University and as a Student Editor at The American Review of International Arbitration at Columbia Law School',
+//     imageUrl: c37,
+//     isKeynote: true
+// }, 
     {
     name: 'Dr. Swapnil Tripathi',
     title: 'Lead – Charkha (Centre for Constitutional Law) | Advocate',
@@ -73,7 +83,15 @@ const speakersData = [
     details: 'Lead at Charkha, Vidhi Centre for Legal Policy. DPhil in Law (University of Oxford) specialising in Public Interest Litigation and Constitutional law.',
     imageUrl: c15,
     isKeynote: true
-} 
+},
+ {
+    name: 'Prof. (Dr.) Rashmi Salpekar',
+    title: 'Dean',
+    affiliation: 'Vivekanand School of Law and Legal Studies, VIPS, Delhi',
+    details: 'An eminent academician and Professor, currently serving as the Dean at Vivekananda School of Law and Legal Studies (VIPS), Delhi.Expertise includes International Human Rights, International Criminal Law, International Economic & Trade Law, and International Humanitarian Law.',
+    imageUrl: c36,
+    isKeynote: true
+}  
 ];
 
 
