@@ -10,6 +10,11 @@ import c28 from '../../logo/c28.jpeg';
 import c32 from '../../logo/c32.jpg';
 import c33 from '../../logo/c33.jpeg';
 import c34 from '../../logo/c34.jpeg';
+import c38 from '../../logo/c38.jpeg';
+import c39 from '../../logo/c39.jpg';
+import c40 from '../../logo/c40.jpg';
+import c41 from '../../logo/c41.jpeg';
+import c42 from '../../logo/c42.jpeg';
 
 const SessionChair = () => {
   const committees = {
@@ -21,6 +26,13 @@ const SessionChair = () => {
         imageUrl: c28,
         isKeynote: true
       },
+      {
+        name: "Ms. Anamika Shukla",
+        role: "Assistant Professor of Law",
+        title: "Gujarat National Law University, Gandhinagar",
+        imageUrl: c41,
+        isKeynote: true
+      },
         {
         name: "Dr. Anumeet Kaur",
         role: "Assistant Professor of Law",
@@ -28,11 +40,26 @@ const SessionChair = () => {
         imageUrl: c26,
         isKeynote: true
       },
+      
+      {
+        name: "Adv. Avantika Shukla",
+        role: "Advocate",
+        title: "Dispute Resolution & White Collar Crime",
+        imageUrl: c38,
+        isKeynote: true
+      },
         {
         name: "Dr. Bhavna Mahadew",
         role: "Lecturer of Law",
         title: "Department of Business Management and Law, University of Technology, Mauritius",
         imageUrl: c24,
+        isKeynote: true
+      },
+       {
+        name: "Dr. JAWWAD Ali",
+        role: "Lecturer of Law",
+        title: "Universiti Utara Malaysia",
+        imageUrl: c42,
         isKeynote: true
       },
       {
@@ -56,6 +83,13 @@ const SessionChair = () => {
         imageUrl: c33,
         isKeynote: true
       },
+      {
+        name: "Dr. Pramod Tiwari ",
+        role: "Sr. Assistant Professor of Law",
+        title: "Law Center II,Faculty of Law, University of Delhi",
+        imageUrl: c39,
+        isKeynote: true
+      },
        {
         name: "Dr. Prasenjit Kundu",
         role: "Assistant Professor of Law",
@@ -69,6 +103,14 @@ const SessionChair = () => {
         role: "Senior Associate",
         title: "Khaitan & Co.",
         imageUrl: c25,
+        isKeynote: true
+      },
+      
+       {
+        name: "Dr. Shashya Mishra",
+        role: "Dean",
+        title: "School of Law, Forensic Justice And Policy Studies",
+        imageUrl: c40,
         isKeynote: true
       },
     
