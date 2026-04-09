@@ -45,11 +45,11 @@
   box-shadow: 0 2px 4px #1e3a8a
 }
 
-.committee-card:hover {
+.session-card:hover {
   transform: translateY(-5px);
 }
 
-.committee-card h4 {
+.session-card h4 {
   color: var(--primary-color);
   font-size: 1.2rem;
   margin-bottom: 0.5rem;
@@ -57,25 +57,25 @@
 
 
 
-.committee-card .role {
+.session-card .role {
   color: var(--secondary-color);
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
 
-.committee-card .title,
-.committee-card .institution {
+.session-card .title,
+.session-card .institution {
   color: var(--text-color);
   font-size: 0.9rem;
 }
 
 @media (max-width: 768px) {
-  .committee-grid {
+  .session-grid {
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
   }
 
-  .committee-card {
+  .session-card {
     padding: 1.5rem;
   }
 }
