@@ -364,7 +364,7 @@ const CallForPapers = () => {
                   international journals,  publishers and indexing agencies to ensure high 
                   visibility and academic impact of selected works. Final publication details 
                   will be announced upon confirmation of the publication partner.
-      <p>Each participant will receive a Certificate of Participation/ Presentation.</p>
+      <p>Each participant will receive a Certificate of Participation/ Presentation. Best Paper Presenter for each session.</p>
       </p>
 
               
