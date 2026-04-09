@@ -41,7 +41,7 @@ const speakersData = [
 },
 
  {
-    name: 'Dr. Atul Kumar Pandey',
+    name: 'Prof. (Dr.) Atul Kumar Pandey',
     title: 'Professor of Cyber Law and Chairperson',
     affiliation: 'Rajiv Gandhi National Cyber Law Centre, NLIU, Bhopal',
     details: 'Professor of Cyber Law and Chairperson of the Rajiv Gandhi National Cyber Law Centre at National Law Institute University, Bhopal, with extensive academic experience in cyber law education and research.Ph.D. scholar with over 18 years of teaching experience across leading law universities, specializing in cyber law, information security, and technology law.',
@@ -65,7 +65,7 @@ const speakersData = [
     isKeynote: true
 },
  {
-    name: 'Prof. J. P. Rai',
+    name: 'Prof. (Dr.) J. P. Rai',
     title: 'Professor',
     affiliation: 'Faculty of Law,Banaras Hindu University, Varanasi',
     details: 'A Professor at the Faculty of Law, Banaras Hindu University (BHU), specializing in Constitutional Law and Administrative Law. With over two decades of academic experience, he has held numerous administrative roles at BHU, including Proctor and Administrative Warden, while contributing extensively to legal research on topics like the Right to Information and judicial accountability',
@@ -76,31 +76,31 @@ const speakersData = [
     name: 'Dr. Manish Singh',
     title: 'Professor of Law',
     affiliation: 'Dr. Ram Manohar Lohiya National Law University',
-    details: 'a distinguished Professor of Law with extensive academic and research contributions in Intellectual Property and Business Laws. Expertise spans patent law, corporate law, and international trade, complemented by practical experience as a registered Patent Agent.Actively contributes to institutional development, research initiatives, and academic administration, along with teaching, mentorship, and engagement in legal discourse.',
+    details: 'A distinguished Professor of Law with extensive academic and research contributions in Intellectual Property and Business Laws. Expertise spans patent law, corporate law, and international trade, complemented by practical experience as a registered Patent Agent. Actively contributes to institutional development, research initiatives, and academic administration, along with teaching, mentorship, and engagement in legal discourse.',
     imageUrl: c46,
     isKeynote: true
 },
-{
-    name: 'Dr. Pavan Duggal',
-    title: 'Senior Advocate',
-    affiliation: 'Supreme Court of India',
-    details: 'A globally renowned expert in Cyberlaw and E-commerce law, serving as a Senior Advocate at the Supreme Court of India. He is widely recognized for his pioneering work in shaping legal frameworks for the digital age and has been instrumental in impactfully navigating the intersection of law, technology, and policy on international platforms like the United Nations.',
-    imageUrl: c43,
-    isKeynote: true
-},
+// {
+//     name: 'Dr. Pavan Duggal',
+//     title: 'Senior Advocate',
+//     affiliation: 'Supreme Court of India',
+//     details: 'A globally renowned expert in Cyberlaw and E-commerce law, serving as a Senior Advocate at the Supreme Court of India. He is widely recognized for his pioneering work in shaping legal frameworks for the digital age and has been instrumental in impactfully navigating the intersection of law, technology, and policy on international platforms like the United Nations.',
+//     imageUrl: c43,
+//     isKeynote: true
+// },
   {
     name: 'Mr. Prasenjit Gautam',
     title: 'Co-Founder',
     affiliation: 'Vallum Research & C2AIR',
-    details: ' An independent cybersecurity researcher and public speaker committed towards free education advocacy and fostering technological research.Guest faculty UP Police Headquarters (Technical Services)',
+    details: ' An independent cybersecurity researcher and public speaker committed towards free education advocacy and fostering technological research. Guest faculty UP Police Headquarters (Technical Services)',
     imageUrl: c35,
     isKeynote: true
 },
  {
-    name: 'Adv. Sakshi Srivastava',
+    name: 'Ms. Sakshi Srivastava',
     title: 'Assistant Professor',
     affiliation: ' Jindal Global Law School, Sonipat',
-    details: 'A legal professional practicing before the Supreme Court of India and the Rajasthan High Court, specializing in dispute resolution, arbitration, constitutional, criminal, and taxation law, also serves as a Research Assistant at Columbia University and as a Student Editor at The American Review of International Arbitration at Columbia Law School.Cleared New York bar- dual qualified to practise in India and USA.Managing Partner of Senatus Law Offices.',
+    details: 'A legal professional practicing before the Supreme Court of India and the Rajasthan High Court, specializing in dispute resolution, arbitration, constitutional, criminal, and taxation law, also serves as a Research Assistant at Columbia University and as a Student Editor at The American Review of International Arbitration at Columbia Law School. She has Cleared New York bar- dual qualified to practise in India and USA. Managing Partner of Senatus Law Offices.',
     imageUrl: c37,
     isKeynote: true
 }, 

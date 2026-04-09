@@ -15,6 +15,8 @@ import c39 from '../../logo/c39.jpg';
 import c40 from '../../logo/c40.jpg';
 import c41 from '../../logo/c41.jpeg';
 import c42 from '../../logo/c42.jpeg';
+import c47 from '../../logo/c47.jpeg';
+
 
 const SessionChair = () => {
   const committees = {
@@ -30,7 +32,7 @@ const SessionChair = () => {
         name: "Ms. Anamika Shukla",
         role: "Assistant Professor of Law",
         title: "Gujarat National Law University, Gandhinagar",
-        imageUrl: c41,
+        imageUrl: c47,
         isKeynote: true
       },
         {
@@ -43,8 +45,8 @@ const SessionChair = () => {
       
       {
         name: "Adv. Avantika Shukla",
-        role: "Advocate",
-        title: "Dispute Resolution & White Collar Crime",
+        role: "Legal Consultant",
+        title: "Enforcement Directorate, Mumbai",
         imageUrl: c38,
         isKeynote: true
       },
@@ -55,13 +57,13 @@ const SessionChair = () => {
         imageUrl: c24,
         isKeynote: true
       },
-       {
-        name: "Dr. JAWWAD Ali",
-        role: "Lecturer of Law",
-        title: "Universiti Utara Malaysia",
-        imageUrl: c42,
-        isKeynote: true
-      },
+      //  {
+      //   name: "Dr. JAWWAD Ali",
+      //   role: "Lecturer of Law",
+      //   title: "Universiti Utara Malaysia",
+      //   imageUrl: c42,
+      //   isKeynote: true
+      // },
       {
         name: "Dr. Navtika Nautiyal",
         role: "Assistant Professor",
