@@ -80,14 +80,14 @@ const speakersData = [
     imageUrl: c46,
     isKeynote: true
 },
-// {
-//     name: 'Dr. Pavan Duggal',
-//     title: 'Senior Advocate',
-//     affiliation: 'Supreme Court of India',
-//     details: 'A globally renowned expert in Cyberlaw and E-commerce law, serving as a Senior Advocate at the Supreme Court of India. He is widely recognized for his pioneering work in shaping legal frameworks for the digital age and has been instrumental in impactfully navigating the intersection of law, technology, and policy on international platforms like the United Nations.',
-//     imageUrl: c43,
-//     isKeynote: true
-// },
+{
+    name: 'Dr. Pavan Duggal',
+    title: 'Senior Advocate',
+    affiliation: 'Supreme Court of India',
+    details: 'A globally renowned expert in Cyberlaw and E-commerce law, serving as a Senior Advocate at the Supreme Court of India. He is widely recognized for his pioneering work in shaping legal frameworks for the digital age and has been instrumental in impactfully navigating the intersection of law, technology, and policy on international platforms like the United Nations. Also the architect of the Duggal Doctrine, a pioneering principle-based global framework for AI regulation, advancing accountable, transparent, and human-centric digital governance.',
+    imageUrl: c43,
+    isKeynote: true
+},
   {
     name: 'Mr. Prasenjit Gautam',
     title: 'Co-Founder',
@@ -100,7 +100,7 @@ const speakersData = [
     name: 'Ms. Sakshi Srivastava',
     title: 'Assistant Professor',
     affiliation: ' Jindal Global Law School, Sonipat',
-    details: 'A legal professional practicing before the Supreme Court of India and the Rajasthan High Court, specializing in dispute resolution, arbitration, constitutional, criminal, and taxation law, also serves as a Research Assistant at Columbia University and as a Student Editor at The American Review of International Arbitration at Columbia Law School. She has Cleared New York bar- dual qualified to practise in India and USA. Managing Partner of Senatus Law Offices.',
+    details: 'A legal professional practicing before the Supreme Court of India and the Rajasthan High Court, specializing in dispute resolution, arbitration, constitutional, criminal, and taxation law, also serves as a Research Assistant at Columbia University and as a Student Editor at The American Review of International Arbitration at Columbia Law School. She has cleared New York bar- dual qualified to practise in India and USA. Managing Partner of Senatus Law Offices.',
     imageUrl: c37,
     isKeynote: true
 }, 
@@ -117,7 +117,7 @@ const speakersData = [
     name: 'Dr. Swapnil Tripathi',
     title: 'Lead – Charkha (Centre for Constitutional Law) | Advocate',
     affiliation: 'Vidhi Centre for Legal Policy, New Delhi, India',
-    details: 'Lead at Charkha, Vidhi Centre for Legal Policy. DPhil in Law (University of Oxford) specialising in Public Interest Litigation and Constitutional law.',
+    details: 'Lead at Charkha, Vidhi Centre for Legal Policy. DPhil in Law (University of Oxford) specialising in Public Interest Litigation and Constitutional law. Academic contributions include publications in leading journals and public platforms, notably the Tryst with the Constitution column, along with initiatives like The Basic Structure blog aimed at promoting constitutional literacy. Internationally recognized as an Associate Fellow of the Royal Commonwealth Society for contributions to legal research and public discourse.',
     imageUrl: c15,
     isKeynote: true
 },

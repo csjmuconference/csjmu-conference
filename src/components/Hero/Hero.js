@@ -19,10 +19,10 @@ const Hero = () => {
         <div className="container hero-content">
           <div className="logo-container">
             {/* Placeholder logos */}
+               <img src={l3} alt="NAAC Logo" className="logo" />
+            <img src={l2} alt="csjmu Logo" className="logo" />
             <img src={logo4} alt="ICCLG Logo" className="logo" />
-            <img src={l2} alt="NAAC Logo" className="logo" />
-            <img src={l3} alt="ARAD Logo" className="logo" />
-            <img src={l1} alt="Aurel Vlaicu Logo" className="logo" />
+            <img src={l1} alt="Abvsls Logo" className="logo" />
             <img src={logo6} alt="Benthem Science logo" className="logo" />
           </div>
           <h1>International Conference on Cybersecurity Law and Governance</h1>
