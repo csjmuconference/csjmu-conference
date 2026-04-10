@@ -359,13 +359,17 @@ const CallForPapers = () => {
                   visibility and academic impact of the selected works.
                   Final publication details will be announced upon confirmation of 
                   the publication partner. */}
-                  Selected papers will be given an opportunity of publication in an 
-                  edited book bearing ISBN. Discussions are also underway with reputed 
-                  international journals,  publishers and indexing agencies to ensure high 
-                  visibility and academic impact of selected works. Final publication details 
-                  will be announced upon confirmation of the publication partner.
-      <p>Each participant will receive a Certificate of Participation/ Presentation. Best Paper Presenter for each session.</p>
-      </p>
+                 Selected papers will be given an opportunity of publication in an 
+                 edited book bearing ISBN with Benthem Science along with publication 
+                 charges. Preference will be given to papers with intersection of 
+                 technology and law.</p>
+                 <p>Discussions are also underway with other reputed international 
+                  journals, publishers and indexing agencies to ensure high visibility 
+                  and academic impact of selected works.</p>
+
+      <p>Each participant will receive a Certificate of Participation/ Presentation. 
+        Best Paper Presenter will be selected from each technical session.</p>
+      
 
               
                <h4>Formatting and Submission Guidelines</h4>

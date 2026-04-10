@@ -4,6 +4,7 @@ import l1 from '../../logo/l1.webp';
 import l2 from '../../logo/l2.webp';
 import l3 from '../../logo/l3.webp';
 import logo4 from '../../logo/logo4.png';
+import logo6 from '../../logo/logo6.webp';
 import bgImage1 from '../../logo/bgImage1.jpeg';
 
 const Hero = () => {
@@ -22,6 +23,7 @@ const Hero = () => {
             <img src={l2} alt="NAAC Logo" className="logo" />
             <img src={l3} alt="ARAD Logo" className="logo" />
             <img src={l1} alt="Aurel Vlaicu Logo" className="logo" />
+            <img src={logo6} alt="Benthem Science logo" className="logo" />
           </div>
           <h1>International Conference on Cybersecurity Law and Governance</h1>
           <h2>Building Global Resilience</h2>
