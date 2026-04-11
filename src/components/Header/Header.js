@@ -39,8 +39,8 @@ const Header = () => {
              <li><a href="#keynoteSpeakers" onClick={closeMenu}>Keynote Speakers</a></li>
              <li><a href="#committee" onClick={closeMenu}>Committee</a></li>
             {/* <li><a href="#publication" onClick={closeMenu}>Publication</a></li> */}
-            <li><a href="#gallery" onClick={closeMenu}>Gallery</a></li>
-            <li><a href="#attractions" onClick={closeMenu}>Attractions</a></li>
+            {/* <li><a href="#gallery" onClick={closeMenu}>Gallery</a></li> */}
+            {/* <li><a href="#attractions" onClick={closeMenu}>Attractions</a></li> */}
             {/* <li><a href="#downloads" onClick={closeMenu}>Downloads</a></li> */}
             <li><a href="#contact" onClick={closeMenu}>Contact Us</a></li>
           </ul>

@@ -238,8 +238,8 @@ function App() {
                <SessionChair/>
               <Committee />
         <StudentCoordinator/>
-      <Gallery />
-      <Attractions />
+      {/* <Gallery /> */}
+      {/* <Attractions /> */}
       {/* <DownloadSection /> */}
       <Contact />
 
