@@ -32,7 +32,7 @@ import c49 from '../logo/c49.jpg';
 // Placeholder data for speakers (based on the latest screenshots)
 const speakersData = [
     {
-    name: 'Professor Adesh Kumar',
+    name: 'Prof. (Dr.) Adesh Kumar',
     title: 'Dean',
     affiliation: 'Faculty of Law,University of Allahabad,Prayagraj',
     details: 'Dr. Adesh Kumar has over 23 years of teaching experience and is currently the Dean at the Faculty of Law, University of Allahabad, Prayagraj, Uttar Pradesh, India. Earlier he served as Associate Professor at the Faculty of Law, Banaras Hindu University, Varanasi, U.P. and as a lecturer at Hidayatullah National Law University, Raipur, Chhattisgarh. He has been a Principal Investigator in a Major Research Project sponsored by the University Grant Commission, New Delhi.',

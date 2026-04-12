@@ -5,6 +5,7 @@ import l2 from '../../logo/l2.webp';
 import l3 from '../../logo/l3.webp';
 import logo4 from '../../logo/logo4.png';
 import logo6 from '../../logo/logo6.webp';
+import logo9 from '../../logo/logo9.png';
 import bgImage1 from '../../logo/bgImage1.jpeg';
 
 const Hero = () => {
