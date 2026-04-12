@@ -27,11 +27,19 @@ import c43 from '../logo/c43.jpeg';
 import c44 from '../logo/c44.jpg';
 import c45 from '../logo/c45.jpeg';
 import c46 from '../logo/c46.jpg';
-
+import c49 from '../logo/c49.jpg';
 
 // Placeholder data for speakers (based on the latest screenshots)
 const speakersData = [
-     {
+    {
+    name: 'Professor Adesh Kumar',
+    title: 'Dean',
+    affiliation: 'Faculty of Law,University of Allahabad,Prayagraj',
+    details: 'Dr. Adesh Kumar has over 23 years of teaching experience and is currently the Dean at the Faculty of Law, University of Allahabad, Prayagraj, Uttar Pradesh, India. Earlier he served as Associate Professor at the Faculty of Law, Banaras Hindu University, Varanasi, U.P. and as a lecturer at Hidayatullah National Law University, Raipur, Chhattisgarh. He has been a Principal Investigator in a Major Research Project sponsored by the University Grant Commission, New Delhi.',
+    imageUrl: c49,
+    isKeynote: true
+}, 
+    {
     name: 'Dr. Anand Handa',
     title: 'Chief Strategy Officer (CSO)',
     affiliation: 'C3iHub, IIT Kanpur',
@@ -73,7 +81,7 @@ const speakersData = [
     isKeynote: true
 },
  {
-    name: 'Dr. Manish Singh',
+    name: 'Prof. (Dr.) Manish Singh',
     title: 'Professor of Law',
     affiliation: 'Dr. Ram Manohar Lohiya National Law University',
     details: 'A distinguished Professor of Law with extensive academic and research contributions in Intellectual Property and Business Laws. Expertise spans patent law, corporate law, and international trade, complemented by practical experience as a registered Patent Agent. Actively contributes to institutional development, research initiatives, and academic administration, along with teaching, mentorship, and engagement in legal discourse.',

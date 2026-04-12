@@ -16,6 +16,7 @@ import c40 from '../../logo/c40.jpg';
 import c41 from '../../logo/c41.jpeg';
 import c42 from '../../logo/c42.jpeg';
 import c47 from '../../logo/c47.jpeg';
+import c48 from '../../logo/c48.jpeg';
 
 
 const SessionChair = () => {
@@ -66,9 +67,16 @@ const SessionChair = () => {
       // },
       {
         name: "Dr. Navtika Nautiyal",
-        role: "Assistant Professor",
+        role: "Assistant Professor of Law",
         title: "Department of Law, Forensic Justice and Policy Studies,National Forensic Sciences University, Gandhinagar",
         imageUrl: c23,
+        isKeynote: true
+      },
+       {
+        name: "Dr. Nivedita Chaudhary",
+        role: "Assistant Professor of Law",
+        title: "Department of Law, Delhi University ",
+        imageUrl: c48,
         isKeynote: true
       },
       {
