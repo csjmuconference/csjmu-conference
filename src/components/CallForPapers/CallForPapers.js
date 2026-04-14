@@ -360,7 +360,7 @@ const CallForPapers = () => {
                   Final publication details will be announced upon confirmation of 
                   the publication partner. */}
                  Selected papers will be given an opportunity of publication in an 
-                 edited book bearing ISBN with Benthem Science along with publication 
+                 edited book bearing ISBN with Bentham Science along with publication 
                  charges. Preference will be given to papers with intersection of 
                  technology and law.</p>
                  <p>Discussions are also underway with other reputed international 
