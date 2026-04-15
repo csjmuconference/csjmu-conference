@@ -17,6 +17,9 @@ import c41 from '../../logo/c41.jpeg';
 import c42 from '../../logo/c42.jpeg';
 import c47 from '../../logo/c47.jpeg';
 import c48 from '../../logo/c48.jpeg';
+import c50 from '../../logo/c50.png';
+import c51 from '../../logo/c51.png';
+import c52 from '../../logo/c52.jpg';
 
 
 const SessionChair = () => {
@@ -94,6 +97,13 @@ const SessionChair = () => {
         isKeynote: true
       },
       {
+        name: "Prof. (Dr.) P.K. Pandey",
+        role: "Professor of Law",
+        title: "Department of Law,Brahmanand College, Kanpur",
+        imageUrl: c50,
+        isKeynote: true
+      },
+      {
         name: "Dr. Pramod Tiwari ",
         role: "Sr. Assistant Professor of Law",
         title: "Law Center II,Faculty of Law, University of Delhi",
@@ -115,6 +125,13 @@ const SessionChair = () => {
         imageUrl: c25,
         isKeynote: true
       },
+       {
+        name: "Prof. (Dr.) Rakesh Kumar Pandey",
+        role: "Professor & Head in Department of Law",
+        title: "Vikramajit Singh Sanatan Dharma College, Nawabganj, Kanpur",
+        imageUrl: c52,
+        isKeynote: true
+      },
       
        {
         name: "Dr. Shashya Mishra",
@@ -123,7 +140,13 @@ const SessionChair = () => {
         imageUrl: c40,
         isKeynote: true
       },
-    
+    {
+        name: "Prof. (Dr.) V.S. Tripathi",
+        role: "Professor of Law",
+        title: "Department of Law,Brahmanand College, Kanpur",
+        imageUrl: c51,
+        isKeynote: true
+      },
       
      
     ]
