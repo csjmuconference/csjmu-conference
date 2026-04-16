@@ -103,8 +103,8 @@ const Registration = () => {
           {/* ===== CTA Section ===== */}
           <div className="registration-cta">
             <h3>Ready to Join?</h3>
-            <p>Register now to secure your spot at the conference</p>
-            {/* <p style={{ color: 'red' }}>Registrations are closed !!</p> */}
+            {/* <p>Register now to secure your spot at the conference</p> */}
+            <p style={{ color: 'red' }}>Registrations are closed !!</p>
             {/* <a
               href="https://docs.google.com/forms/d/e/1FAIpQLSf5Y1_TDAg2yxIY_ZppQeDiRODfaUQRzIhOwCTbiOA9fVeXOw/viewform?usp=header"
               className="register-button"
@@ -116,9 +116,9 @@ const Registration = () => {
           {/* <button className="register-button" onClick={() => setIsModalOpen(true)}>
           Abstract Submission
        </button> */}
-            <button className="register-button" onClick={() => setIsRegistrationOpen(true)}>
+            {/* <button className="register-button" onClick={() => setIsRegistrationOpen(true)}>
           Registration
-       </button>
+       </button> */}
          <button className="register-button" onClick={() => setIsFormModalOpen(true)}>
           Full Paper Submission
        </button>
