@@ -377,20 +377,20 @@ const handleFormSubmit = async (e) => {
     <h4 className="full-width separator">Document Submission (Max 15MB)</h4>
     
      {/* QR Code Section  */}
-<div className="full-width qr-payment-container" style={{
+{/* <div className="full-width qr-payment-container" style={{
     textAlign: 'center', 
     padding: '15px', 
     backgroundColor: '#f9f9f9', 
     border: '1px dashed #ccc', 
     borderRadius: '8px',
     marginBottom: '15px'
-}}>
-    <p style={{ fontWeight: 'bold', marginBottom: '10px', color: '#333' }}>
+}}> */}
+    {/* <p style={{ fontWeight: 'bold', marginBottom: '10px', color: '#333' }}>
         Scan to Pay
-    </p>
+    </p> */}
     
     {/* QR Image  */}
-    <img 
+    {/* <img 
         src={qrcode2} 
         alt="Payment QR Code" 
         style={{ 
@@ -399,12 +399,12 @@ const handleFormSubmit = async (e) => {
             borderRadius: '5px',
             boxShadow: '0 2px 8px rgba(0,0,0,0.1)'
         }} 
-    />
+    /> */}
     
-    <p style={{ fontSize: '12px', marginTop: '10px', color: '#666' }}>
+    {/* <p style={{ fontSize: '12px', marginTop: '10px', color: '#666' }}>
         Accepting all UPI Apps (GPay, PhonePe, Paytm)
-    </p>
-</div>
+    </p> */}
+{/* </div> */}
 
     <div className="form-field">
         <label>Transaction/UTR Number *</label>

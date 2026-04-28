@@ -157,9 +157,9 @@ const Registration = () => {
                   <p> After receiving the acceptance confirmation for the abstract, authors may proceed with the full paper submission as per the conference guidelines.</p></li>
                    <li><p><strong>Registration & Payment:</strong></p>
                   <p>Authors must complete their registration before the deadline through the official registration link.</p></li>
-                   <li><p><strong>Payment Process:</strong></p>
+                   {/* <li><p><strong>Payment Process:</strong></p>
                   <p>Complete the payment using the Payment Link provided below or by scanning the QR code:
-                      Payment Link: <a href="https://p.ppsl.io/PYTMPS/fQicqk">https://p.ppsl.io/PYTMPS/fQicqk</a></p></li>
+                      Payment Link: <a href="https://p.ppsl.io/PYTMPS/fQicqk">https://p.ppsl.io/PYTMPS/fQicqk</a></p></li> */}
                    <li><p><strong>Confirmation of Registration:</strong></p>
                   <p>Registration will be confirmed only after successful payment.</p></li>
                    <li><p><strong>Support & Queries:</strong></p>
@@ -178,7 +178,7 @@ conference.abvsls@csjmu.ac.in</p></li>
                 {/* <p className="note">* Please send the payment confirmation to <a href="mailto:conference@csjmu.ac.in">conference@csjmu.ac.in</a></p> */}
               </div>
 
-              <div className="qr-section">
+              {/* <div className="qr-section">
                 <div className="phone-frame">
                   <div className="notch"></div>
                   <div className="phone-screen">
@@ -195,7 +195,7 @@ conference.abvsls@csjmu.ac.in</p></li>
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
