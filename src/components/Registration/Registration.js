@@ -119,9 +119,9 @@ const Registration = () => {
             {/* <button className="register-button" onClick={() => setIsRegistrationOpen(true)}>
           Registration
        </button> */}
-         <button className="register-button" onClick={() => setIsFormModalOpen(true)}>
+         {/* <button className="register-button" onClick={() => setIsFormModalOpen(true)}>
           Full Paper Submission
-       </button>
+       </button> */}
        </div>
 
        {/* 3. Component ko end mein call karein */}
